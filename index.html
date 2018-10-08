@@ -8,53 +8,208 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/styles/index.css">
-    <title>Hello, world!</title>
+
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"/>
+
+    <title>Integration</title>
   </head>
+
+
   <body>
-    <div class="container-fluid">
-    <section id="Header">
-      <div class="row">
-        <div class="col bg">
-          <nav class=" offset-3 col-8 navbar navbar-expand-lg navbar-light bg-link">
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link" href="#">LE SPECTACLE <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">BILLETRIE <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">#ALLEZVOUSFAIRECOMMUNIQUER</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">TEMOIGNAGES</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">CONTACT</a>
-                </li>
-                </ul>
-              </div>
-            </nav>
-            <div class="offset-6 col-5">
-              <img src="./assets/img/titlebg.png" class="textbg"/>
+    <!-- Header -->
+    <header class="masterhead" id="accueil">
+        <div class="row menu container">
+          <div class="col-3 wrapLogo">
+            one man <strong>conf</strong> show
+          </div>
+          <div class="col-9 navbar">
+            <ul>
+              <li><span class="spectacle">le spectacle</span></li>
+              <li>billeterie</li>
+              <li>#ALLEZVOUSFAIRECOMMUNIQuER</li>
+              <li>témoignages</li>
+              <li>contact</li>
+              <li><a href="#"><img src="./assets/img/Picto_ticket.png" alt="picto" /></a></li>
+            </ul>
+          </div>
+            <!--<div class="col-12">
+              
+              <div class="">
+                <nav class="navbar navbar-expand-lg navbar-light bg-link">
+                  <a class="navbar-brand" href="#">
+                    <img src="./assets/img/oneman.png" alt="oneman">
+                  </a>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                      <li class="nav-item active">
+                        <a class="nav-link" href="#">LE SPECTACLE <span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">BILLETERIE</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">#ALLEZVOUSFAIRECOMMUNIQER</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">TEMOIGNAGE</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACT</a>
+                      </li>
+                    </ul>
+                  </div>
+                    <a class="navbar-brand" href="#">
+                      <img src="./assets/img/Picto_ticket.png" alt="pictobillet">
+                    </a>
+                  </nav>
+                </div>
+                
+                
+                <div class="offset-7 col-5">
+                  <img class="communiquer" src="./assets/img/comminuquer.png" alt="comminuquer"/>
+                </div>
+                
             </div>
-            <div class=" offset-7 col-3 button">
-              <button type="button" class="btn btn-link">DECOUVRER LE TEASER</button>
-            </div> 
+          </div> -->
+        </div>
+      </header>
+
+    <!--section 1 -->
+    <section id="section_one">
+      <div id="block" class="section">
+        <div class="container relative">
+          <div class="row rowAnimate fade-in">
+            <div class="col-12 col-sm-6">
+              <div class="citation">
+                <img src="./assets/img/guillemet1.png" class="guillemetUp">
+                <strong class="communiquer_text">Communiquer est un art, </strong> nous serions donc tous des artistes incompris... et d'autant plus lorsque l'on s'exprime avec les autres (...)
+                <img src="./assets/img/guillemet2.png" class="guillemetDown">
+              </div>
+            </div>
+      
+            <div class="col-12 col-sm-6 ">
+              <div class="intro">
+              Pour trouver <strong>la meilleure manière d'amèliorer sa communication personnelle </strong>, Emmanuel Chila replonge dans ses souvenirs et expériences personnelles pour <strong>déceler les erreurs</strong> et <strong>les comportements</strong> qui ont nui à ses échanges et peut-être aux vôtres.      
+              <br>
+              <br>      
+              Il part du constat que <strong>nous savons tous communiquer</strong>, mais ce sont nos petites maladresses verbales qui viennent parasiter notre quotidien.
+              <br>
+              <br>
+              Ce <strong>One Man Conf Show</strong> vous amène avec <strong>humour et sincérité</strong> à découvrir les petits changements qui vous permettront d'améliorer votre communication. Une expérience communicante pratique et ludique mêlant anecdoctes de vie, petits conseils et mises en pratique.
+              <a id="showPop" href="#" class="btn-simple float-right mt35">En savoir plus</a>
+            </div>
           </div>
         </div>
-    </section>
-    <section id="">
+      </div>
+    </div>
+  </section>
 
+    <!-- Section Shop -->
+    <section id="section_shop">
+      <div id="shop" class="section">
+        <div class="container relative ">
+          <img src="./assets/img/billet.png" class="shop_billet">
+            <div class="hack_overflow relative">
+              <img src="./assets/img/shop.png" class="shop_img">
+              <br>
+            <a href="http://www.comediedeparis.com/allez-tous-vous-faire-commmuniquer/spectacle/227" class="btn-site btn-color">
+              <div>
+                <img src="./assets/img/billet_picto.png" alt="Allez vous faire communiquer"> 
+              </div>
+              <span>la billeterie</span>
+            </a>
+          </div>
+        </div>
+      </div>
     </section>
-  </div>
+
+    <!-- Section Insta -->
+    <section id="section_insta">
+      <div class="container">
+        <div class="row">
+          <div class="col-12  pictocom">
+            <img class="" src="./assets/img/commpicto.png" />
+            <h1 class="h1">#ALLEZVOUSFAIRECOMMUNIQER</h1>
+            <p>Utilise le hastag officiel du spectacle pour nous partager</p>
+            <p>tes photos et impressions !</p>
+          </div>
+          <div class="row firstline">
+            <div class="col-4">
+              <img class="insta" src="./assets/img/converse.png" alt="chaussure" />
+              <img class="insta" src="./assets/img/running.png" alt="running" />
+              <img class="insta" src="./assets/img/enfant.png" alt="enfant" />
+            </div>
+            <div class="col-4 ">
+              <img class="insta" src="./assets/img/velo.png" alt="velo" />
+              <img class="insta" src="./assets/img/sautemouton.png" alt="manu" />
+              <img  class="insta"src="./assets/img/fan.png" alt="fan" />
+            </div>
+            <div class="col-4 ">
+              <img class="insta" src="./assets/img/couchedesoleil.png" alt="soleil" />
+              <img class="insta" src="./assets/img/soleil.png" alt="soleilcouchant" />
+              <img class="insta" src="./assets/img/enfantjoyeux.png" alt="enfantjoyeux" />
+            </div>
+          </div>
+        </div>
+        <div class="row instatext">
+          <div class="col-12 plusphoto">
+            <p><a href="#" class="textplusphoto">Voir plus de photo</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section final -->
+    <section id="section_final">
+      <div class="container">
+        <div class="row boxslicky">
+          <div class="col-12 guillemetslicky">
+            <img class="guillemet3" src="./assets/img/guillemet3.png" />
+          </div>
+          <div class="col slicky">
+            <div class="textslicky">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit earum, dolorum sed libero ex vero nobis mollitia, repudiandae repellat voluptatem sequi harum, aperiam voluptatum praesentium deleniti et recusandae voluptate. Rerum?</div>
+            <div class="textslicky">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam repellat ratione quasi necessitatibus omnis sed sunt cupiditate, consequuntur dolorem libero beatae dolor. Laudantium, officiis. Error quasi possimus accusantium aliquam adipisci.</div>
+            <div class="textslicky">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo veniam repellat totam aliquam exercitationem voluptatibus tempora similique aperiam iusto, id nihil placeat. Repudiandae incidunt porro inventore itaque, libero ipsum eius.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="relative section" id="footer">
+        <div class="container">
+          <img src="./assets/img/communiquer2.png" class="" alt="allez vous faire communiquer" />
+          <div class="contactfooter">
+            <strong>Tu as une question concernant le spectacle ?</strong>
+            <br>
+            contactez nous sur :
+            <a href="mailto:contact@allezvousfairecommuniquer.com">contact@allezvousfairecommuniquer.com</a>
+          </div>
+        </div>
+      </div>
+    </footer>
     
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="responsify.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
+
+<script>
+      $('.slicky').slick({
+        dots: true,
+        autoplay:false,
+        infinite: true,
+        speed: 500,
+        fade: true,
+        cssEase: 'linear'
+      });
+    </script>
   </body>
 </html>

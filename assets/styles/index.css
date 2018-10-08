@@ -1,0 +1,227 @@
+.masterhead {
+  background: url(../img/bg.png) no-repeat center;
+  height: 670px;
+  width: 100%;
+  position: relative;
+  /*.communiquer {
+      margin-top: 189px;
+  }
+  .navbar {
+      height: 98px;
+  }*/
+}
+
+.row.menu {
+  margin: auto;
+  border: 1px solid blue;
+}
+
+.wrapLogo {
+  display: inline-block;
+  border: 2px solid white;
+  width: 226px;
+  font-size: 14px;
+  font-weight: bold;
+  font-weight: 600;
+  padding: 0px 12px;
+  float: left;
+  height: 30px;
+  line-height: 27px;
+  top: 23px;
+  color: white;
+  text-transform: uppercase;
+  flex: 0 0 17%;
+}
+.wrapLogo strong {
+  color: #de700a;
+}
+
+.navbar {
+  border: 1px solid green;
+  margin-left: -1px;
+  width: 600px;
+}
+
+.navbar li {
+  border: 1px solid red;
+  list-style: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: inline-block;
+  padding: 2px;
+  font-size: 14px;
+  top: 23px;
+  padding: 10px;
+}
+.navbar li .spectacle {
+  color: #de700a;
+}
+
+#footer {
+  background: #18214a;
+  padding-top: 37px;
+  height: 165px;
+  font-size: 14px;
+}
+#footer img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+.contactfooter {
+  margin-top: 10px;
+  float: right;
+  color: #FFF;
+  text-align: right;
+}
+
+#shop {
+  height: 263px;
+  background: #ebebeb;
+  padding: 0px;
+}
+#shop .container {
+  height: 100%;
+}
+#shop .relative {
+  position: relative;
+}
+#shop .shop_billet {
+  position: absolute;
+  top: -28px;
+  right: 0px;
+}
+#shop .bton-site {
+  margin-left: 100px;
+}
+#shop .shop_img {
+  padding: 30px 10px;
+}
+
+.btn-site {
+  font-size: 14px;
+  font-weight: 400;
+  display: inline-block;
+  height: 46px;
+  border: 2px solid #505d9a;
+  width: 250px;
+  margin-top: 2%;
+}
+.btn-site .btn-color img {
+  width: 30px;
+  margin: 4px;
+}
+.btn-site span {
+  display: block;
+  padding: 12px 0px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #505d9a;
+  font-weight: bold;
+}
+
+.hack_overflow {
+  height: 100%;
+  overflow: hidden;
+}
+.hack_overflow .relative {
+  position: relative;
+}
+
+.communiquer_text {
+  color: white;
+  background: #5161a8;
+}
+
+#block {
+  padding: 82px 0px;
+}
+#block .intro {
+  width: 400px;
+  font-size: 14px;
+  color: #37334a;
+  text-align: justify;
+  margin: auto;
+}
+#block .citation {
+  position: relative;
+  width: 375px;
+  font-size: 21px;
+  color: #5161a8;
+  margin: auto;
+  margin-top: 60px;
+  font-weight: 600;
+  font-style: italic;
+  letter-spacing: 1px;
+  line-height: 27px;
+}
+
+.pictocom {
+  /*left: 50%;
+  margin-left: -39px;*/
+  padding: 62px;
+  text-align: center;
+}
+
+.insta {
+  margin-bottom: 30px;
+}
+
+.plusphoto {
+  text-align: center;
+  margin: auto;
+  margin-top: 52px;
+  margin-bottom: 100px;
+}
+
+.textplusphoto {
+  color: #37334a;
+  text-transform: uppercase;
+  border-bottom: 2px #37334a solid;
+  font-weight: bold;
+}
+
+.instatext {
+  padding: 30px;
+}
+
+#section_final {
+  background-color: #fdce38;
+  height: 500px;
+}
+
+.slicky {
+  top: 50px;
+  width: 630px;
+  height: 400px;
+  background: white;
+  margin: auto;
+}
+
+.textslicky {
+  text-align: center;
+  justify-content: center;
+  top: 175px;
+}
+
+.guillemetslicky {
+  text-align: center;
+  z-index: 1;
+  position: absolute;
+  left: 0;
+}
+
+.slick-list {
+  top: 45%;
+}
+
+.slick-dots {
+  left: 0;
+}
+
+.boxslicky {
+  position: relative;
+  top: 17px;
+}
+
+/*# sourceMappingURL=index.css.map */
