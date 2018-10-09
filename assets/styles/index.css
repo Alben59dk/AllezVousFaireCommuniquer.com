@@ -3,17 +3,26 @@
   height: 670px;
   width: 100%;
   position: relative;
-  /*.communiquer {
-      margin-top: 189px;
-  }
-  .navbar {
-      height: 98px;
-  }*/
+}
+.masterhead .communiquer {
+  top: 80px;
+}
+.masterhead .btn-teaser {
+  text-transform: uppercase;
+  margin-top: 110px;
+  margin-left: 785px;
+  border: 2px #FFF solid;
+  padding: 10px;
+}
+.masterhead .btn-teaser a {
+  color: #FFF;
+}
+.masterhead .btn-teaser a:hover {
+  text-decoration: none;
 }
 
 .row.menu {
   margin: auto;
-  border: 1px solid blue;
 }
 
 .wrapLogo {
@@ -37,13 +46,11 @@
 }
 
 .navbar {
-  border: 1px solid green;
   margin-left: -1px;
-  width: 600px;
+  width: 186px;
 }
 
 .navbar li {
-  border: 1px solid red;
   list-style: none;
   text-transform: uppercase;
   font-weight: bold;
@@ -51,10 +58,19 @@
   padding: 2px;
   font-size: 14px;
   top: 23px;
-  padding: 10px;
+  padding: 10px 15px;
+  margin: auto;
 }
 .navbar li .spectacle {
-  color: #de700a;
+  color: #de700a !important;
+}
+
+.active {
+  width: 155px;
+}
+
+.nav-link {
+  color: #FFF !important;
 }
 
 #footer {
