@@ -8,26 +8,41 @@
         top: 80px;
     }
     
-    .btn-teaser {
+    .btn-link {
+        position: relative;
         text-transform: uppercase;
-        margin-top: 110px;
-        margin-left: 785px;
+        margin-top: 156px;
+        /*left: 55%;
+        max-width: 15%; */ 
+        right: 20%;      
         border: 2px #FFF solid;
-        padding: 10px;
+        width: 257px;
+        height: 44px;
+        line-height: 22px;
+        font-family: 'Montserrat', SemiBold;
+        font-size: 14px;
+        color: #FFF;
+        text-decoration: none;
         
-        a {
-            color: #FFF;
-            
+        .icon_play {
+            position: absolute;
         }
-        a:hover {
-            text-decoration: none;
-        }
+        
     }
 }
 
+.play {
+    display: inline-flex;
 
 
-.row.menu {
+    i {
+        right: 50%;
+        position: relative;
+        margin-right: 6px;
+    }
+}
+
+.row {
     margin: auto;
 }
 
@@ -43,7 +58,7 @@
     height: 30px;
     line-height: 27px;
     top: 23px;
-    color: white;
+    color: white !important;
     text-transform: uppercase;
     flex: 0 0 17%;
 
@@ -114,7 +129,8 @@
     .shop_billet {
         position: absolute;
         top: -28px;
-        right: 0px;
+        right: -50%;
+        margin-right: 342px;
     }
     .bton-site {
         margin-left: 100px;
@@ -125,34 +141,18 @@
     }
 }
 
-.btn-site {
-    font-size: 14px;
-    font-weight: 400;
-    display: inline-block;
-    height: 46px;
-    border: 2px solid #505d9a;
-    width: 250px;
-    margin-top: 2%;
-
-    .btn-color img {
-        width: 30px;
-        margin: 4px;
-        }
-
-    span {
-        display: block;
-        padding: 12px 0px;
-        text-align: center;
-        text-transform: uppercase;
-        color: #505d9a;
-        font-weight: bold;
-
-    }
+.btn_shop {
+    text-align: center;
 }
 
+.shop_shop {
+
+}
+
+
+
 .hack_overflow {
-    height: 100%;
-    overflow: hidden;
+    float: right;
 
     .relative {
         position: relative;
@@ -171,7 +171,8 @@
 
     .intro {
         width: 400px;
-        font-size: 14px;
+        font-size: 0.9em;
+        font-weight: bold;
         color: #37334a;
         text-align: justify;
         margin: auto;
@@ -189,6 +190,10 @@
         letter-spacing: 1px;
         line-height: 27px;
     }
+
+    .guillemetDown {
+        margin-left: 90%;
+    }
 }
 
 .pictocom {
@@ -196,6 +201,16 @@
     margin-left: -39px;*/
     padding: 62px;
     text-align: center;
+}
+
+.h1 {
+    font-size: 1em;
+    text-align: center;
+}
+
+.text_insta {
+    text-align: center;
+    margin-bottom: 3%;
 }
 
 .insta {
@@ -258,4 +273,47 @@
 .boxslicky {
     position: relative;
     top: 17px;
+}
+
+
+// Extra small devices (portrait phones, less than 576px)
+@media screen and (min-width: 320px) and (max-width: 414px) { 
+    .logo {
+        width: 80%;
+    }
+
+    .communiquer {
+        text-align: center;
+        
+    }
+
+    .citation {
+        padding-bottom: 10%;
+    }
+
+    .h1 {
+        font-size: 0.9em;
+        font-weight: bold;
+        text-align: center;
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
 }
