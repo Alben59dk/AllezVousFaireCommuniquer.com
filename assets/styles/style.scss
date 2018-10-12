@@ -14,7 +14,8 @@
         margin-top: 156px;
         /*left: 55%;
         max-width: 15%; */ 
-        right: 20%;      
+        left: 50%;
+        margin-left: 89px;      
         border: 2px #FFF solid;
         width: 257px;
         height: 44px;
@@ -30,7 +31,9 @@
         
     }
 }
-
+#hide {
+    display: none;
+}
 .play {
     display: inline-flex;
 
@@ -68,8 +71,6 @@
 }
 .navbar {
     margin-left: -1px;
-    width: 186px;
-    
 }
 .navbar li {
     list-style: none;
@@ -79,7 +80,7 @@
     padding: 2px;
     font-size: 14px;
     top: 23px;
-    padding: 10px 15px;
+    padding: 8px;
     margin: auto;
 
     .spectacle {
@@ -144,11 +145,6 @@
 .btn_shop {
     text-align: center;
 }
-
-.shop_shop {
-
-}
-
 
 
 .hack_overflow {
@@ -279,16 +275,29 @@
 // Extra small devices (portrait phones, less than 576px)
 @media screen and (min-width: 320px) and (max-width: 414px) { 
     .logo {
-        width: 80%;
+        width: 235px;
+        height: 129px;
     }
 
     .communiquer {
         text-align: center;
+        margin-top: 25%;
+        margin-left: 18%;
         
     }
 
-    .citation {
-        padding-bottom: 10%;
+    .masterhead .btn-link {
+        left: 50%;
+        margin-left: -59px;
+        width: 170px;
+        font-size: 10px;
+        font-weight: bold;
+
+    }
+
+    .wrapLogo {
+        width: 100%;
+        font-size: 10px;
     }
 
     .h1 {
@@ -299,13 +308,40 @@
 }
 
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) and (max-width: 767.98px) { 
+@media (min-width: 568px) and (max-width: 812px) { 
 
 }
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) and (max-width: 991.98px) {
+@media (min-width: 768px) and (max-width: 1024px) {
+    .logo {
+        width: 60%;
+    }
 
+    .communiquer {
+        text-align: center;
+        margin-top: 10%;
+        margin-left: 25%;
+        
+    }
+
+    .citation {
+        padding-bottom: 10%;
+    }
+
+    .btn-link {
+        left: 50%;
+        margin-left: -41px;
+    }
+
+    .btn-teaser {
+        
+    }
+
+    .wrapLogo {
+        width: 100%;
+        font-size: 8px;
+    }
 }
 
 // Large devices (desktops, 992px and up)

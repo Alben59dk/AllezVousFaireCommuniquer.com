@@ -13,7 +13,8 @@
   margin-top: 156px;
   /*left: 55%;
   max-width: 15%; */
-  right: 20%;
+  left: 50%;
+  margin-left: 89px;
   border: 2px #FFF solid;
   width: 257px;
   height: 44px;
@@ -25,6 +26,10 @@
 }
 .masterhead .btn-link .icon_play {
   position: absolute;
+}
+
+#hide {
+  display: none;
 }
 
 .play {
@@ -62,7 +67,6 @@
 
 .navbar {
   margin-left: -1px;
-  width: 186px;
 }
 
 .navbar li {
@@ -73,7 +77,7 @@
   padding: 2px;
   font-size: 14px;
   top: 23px;
-  padding: 10px 15px;
+  padding: 8px;
   margin: auto;
 }
 .navbar li .spectacle {
@@ -253,21 +257,58 @@
 
 @media screen and (min-width: 320px) and (max-width: 414px) {
   .logo {
-    width: 80%;
+    width: 235px;
+    height: 129px;
   }
 
   .communiquer {
     text-align: center;
+    margin-top: 25%;
+    margin-left: 18%;
   }
 
-  .citation {
-    padding-bottom: 10%;
+  .masterhead .btn-link {
+    left: 50%;
+    margin-left: -59px;
+    width: 170px;
+    font-size: 10px;
+    font-weight: bold;
+  }
+
+  .wrapLogo {
+    width: 100%;
+    font-size: 10px;
   }
 
   .h1 {
     font-size: 0.9em;
     font-weight: bold;
     text-align: center;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .logo {
+    width: 60%;
+  }
+
+  .communiquer {
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 25%;
+  }
+
+  .citation {
+    padding-bottom: 10%;
+  }
+
+  .btn-link {
+    left: 50%;
+    margin-left: -41px;
+  }
+
+  .wrapLogo {
+    width: 100%;
+    font-size: 8px;
   }
 }
 
