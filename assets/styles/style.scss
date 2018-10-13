@@ -12,8 +12,6 @@
         position: relative;
         text-transform: uppercase;
         margin-top: 156px;
-        /*left: 55%;
-        max-width: 15%; */ 
         left: 50%;
         margin-left: 89px;      
         border: 2px #FFF solid;
@@ -31,7 +29,7 @@
         
     }
 }
-#hide {
+.hide {
     display: none;
 }
 .play {
@@ -163,15 +161,15 @@
 
 
 #block {
-    padding: 82px 0px;
+    padding: 62px 0px;
 
     .intro {
-        width: 400px;
-        font-size: 0.9em;
+        font-size: 14px;
+        font-family: 'Montserrat';
         font-weight: bold;
         color: #37334a;
+        justify-content: center;
         text-align: justify;
-        margin: auto;
     }
 
     .citation {
@@ -179,16 +177,27 @@
         width: 375px;
         font-size: 21px;
         color: #5161a8;
-        margin: auto;
-        margin-top: 60px;
-        font-weight: 600;
+        font-family: 'Montserrat', sans-serif;
+        text-align: justify;
+
         font-style: italic;
-        letter-spacing: 1px;
-        line-height: 27px;
     }
 
+    .guillemetUp {
+        margin-bottom: 5%;
+    }
     .guillemetDown {
+        margin-top: 5%;
         margin-left: 90%;
+        margin-bottom: 10%;
+    }
+
+    .btn-simple {
+        border-bottom: solid 2px #5161a8;
+        color: #5161a8;
+        text-transform: uppercase;
+        font-size: 14px;
+        margin-top: 5%;
     }
 }
 
@@ -305,6 +314,12 @@
         font-weight: bold;
         text-align: center;
     }
+
+    /* section1 */
+
+    .intro{
+        margin-top: 10%;
+    } 
 }
 
 // Small devices (landscape phones, 576px and up)
