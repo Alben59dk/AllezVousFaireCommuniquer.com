@@ -1,0 +1,355 @@
+.masterhead {
+    background: url(../img/bg.png) no-repeat center;
+    height: 670px;
+    width: 100%;
+    position: relative;
+
+    .communiquer {
+        top: 80px;
+    }
+    
+    .btn-link {
+        position: relative;
+        text-transform: uppercase;
+        margin-top: 156px;
+        /*left: 55%;
+        max-width: 15%; */ 
+        left: 50%;
+        margin-left: 89px;      
+        border: 2px #FFF solid;
+        width: 257px;
+        height: 44px;
+        line-height: 22px;
+        font-family: 'Montserrat', SemiBold;
+        font-size: 14px;
+        color: #FFF;
+        text-decoration: none;
+        
+        .icon_play {
+            position: absolute;
+        }
+        
+    }
+}
+#hide {
+    display: none;
+}
+.play {
+    display: inline-flex;
+
+
+    i {
+        right: 50%;
+        position: relative;
+        margin-right: 6px;
+    }
+}
+
+.row {
+    margin: auto;
+}
+
+.wrapLogo {
+    display: inline-block;
+    border: 2px solid white;
+    width: 226px;
+    font-size: 14px;
+    font-weight: bold;
+    font-weight: 600;
+    padding: 0px 12px;
+    float: left;
+    height: 30px;
+    line-height: 27px;
+    top: 23px;
+    color: white !important;
+    text-transform: uppercase;
+    flex: 0 0 17%;
+
+    strong {
+        color: #de700a;
+    }
+}
+.navbar {
+    margin-left: -1px;
+}
+.navbar li {
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: inline-block;
+    padding: 2px;
+    font-size: 14px;
+    top: 23px;
+    padding: 8px;
+    margin: auto;
+
+    .spectacle {
+        color: #de700a !important;
+    }
+}
+
+.active {
+    width: 155px;
+}
+
+.nav-link {
+    color: #FFF !important;
+}
+
+#footer {
+    background: #18214a;
+    padding-top: 37px;
+    height: 165px;
+    font-size: 14px;
+
+    img {
+        vertical-align: middle;
+        border-style: none;
+    }
+}
+
+.contactfooter {
+    margin-top: 10px;
+    float: right;
+    color: #FFF;
+    text-align: right;
+}
+
+#shop {
+    height: 263px;
+    background: #ebebeb;
+    padding: 0px;
+
+    .container {
+        height: 100%;
+    }
+
+    .relative {
+        position: relative;
+    }
+    .shop_billet {
+        position: absolute;
+        top: -28px;
+        right: -50%;
+        margin-right: 342px;
+    }
+    .bton-site {
+        margin-left: 100px;
+    }
+
+    .shop_img {
+        padding: 30px 10px;
+    }
+}
+
+.btn_shop {
+    text-align: center;
+}
+
+
+.hack_overflow {
+    float: right;
+
+    .relative {
+        position: relative;
+    }
+}
+
+.communiquer_text {
+    color: rgb(255, 255, 255);
+    background: #5161a8;
+}
+
+
+
+#block {
+    padding: 82px 0px;
+
+    .intro {
+        width: 400px;
+        font-size: 0.9em;
+        font-weight: bold;
+        color: #37334a;
+        text-align: justify;
+        margin: auto;
+    }
+
+    .citation {
+        position: relative;
+        width: 375px;
+        font-size: 21px;
+        color: #5161a8;
+        margin: auto;
+        margin-top: 60px;
+        font-weight: 600;
+        font-style: italic;
+        letter-spacing: 1px;
+        line-height: 27px;
+    }
+
+    .guillemetDown {
+        margin-left: 90%;
+    }
+}
+
+.pictocom {
+    /*left: 50%;
+    margin-left: -39px;*/
+    padding: 62px;
+    text-align: center;
+}
+
+.h1 {
+    font-size: 1em;
+    text-align: center;
+}
+
+.text_insta {
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.insta {
+    margin-bottom: 30px;
+}
+
+.plusphoto {
+    text-align: center;
+    margin: auto;
+    margin-top: 52px;
+    margin-bottom: 100px;
+}
+
+.textplusphoto {
+    color: #37334a;
+    text-transform: uppercase;
+    border-bottom: 2px #37334a solid;
+    font-weight: bold;
+}
+
+.instatext {
+    padding: 30px;
+}
+
+#section_final {
+    background-color: #fdce38;
+    height: 500px;
+}
+
+.slicky {
+    top: 50px;
+    width: 630px;
+    height: 400px;
+    background: white;
+    margin: auto;
+}
+
+.textslicky {
+    text-align: center;
+    justify-content: center;
+    top: 175px;
+}
+
+.guillemetslicky {
+    text-align: center;
+    z-index: 1;
+    position: absolute;
+    left: 0;
+
+}
+
+.slick-list {
+    top: 45%;
+}
+
+.slick-dots {
+    left: 0;
+}
+
+.boxslicky {
+    position: relative;
+    top: 17px;
+}
+
+
+// Extra small devices (portrait phones, less than 576px)
+@media screen and (min-width: 320px) and (max-width: 414px) { 
+    .logo {
+        width: 235px;
+        height: 129px;
+    }
+
+    .communiquer {
+        text-align: center;
+        margin-top: 25%;
+        margin-left: 18%;
+        
+    }
+
+    .masterhead .btn-link {
+        left: 50%;
+        margin-left: -59px;
+        width: 170px;
+        font-size: 10px;
+        font-weight: bold;
+
+    }
+
+    .wrapLogo {
+        width: 100%;
+        font-size: 10px;
+    }
+
+    .h1 {
+        font-size: 0.9em;
+        font-weight: bold;
+        text-align: center;
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 568px) and (max-width: 812px) { 
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 1024px) {
+    .logo {
+        width: 60%;
+    }
+
+    .communiquer {
+        text-align: center;
+        margin-top: 10%;
+        margin-left: 25%;
+        
+    }
+
+    .citation {
+        padding-bottom: 10%;
+    }
+
+    .btn-link {
+        left: 50%;
+        margin-left: -41px;
+    }
+
+    .btn-teaser {
+        
+    }
+
+    .wrapLogo {
+        width: 100%;
+        font-size: 8px;
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+}
