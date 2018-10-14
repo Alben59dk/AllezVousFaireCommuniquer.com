@@ -204,6 +204,8 @@
     }
 }
 
+/* section insta */
+
 .pictocom {
     /*left: 50%;
     margin-left: -39px;*/
@@ -211,8 +213,11 @@
     text-align: center;
 }
 
-.h1 {
-    font-size: 1em;
+h2 {
+    font-size: 1.9rem !important;
+}
+
+.firstCol, .secondCol, .thirdCol {
     text-align: center;
 }
 
@@ -312,11 +317,6 @@
         font-size: 10px;
     }
 
-    .h1 {
-        font-size: 0.9em;
-        font-weight: bold;
-        text-align: center;
-    }
 
     /* section1 */
 
