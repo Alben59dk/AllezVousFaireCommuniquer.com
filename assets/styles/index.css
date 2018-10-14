@@ -228,6 +228,7 @@ h2 {
   padding: 30px;
 }
 
+/* section carousel */
 #section_final {
   background-color: #fdce38;
   height: 500px;
@@ -242,9 +243,7 @@ h2 {
 }
 
 .textslicky {
-  text-align: center;
-  justify-content: center;
-  top: 175px;
+  text-align: justify;
 }
 
 .guillemetslicky {
