@@ -94,15 +94,16 @@
     color: #FFF !important;
 }
 
+/* footer */
+
 #footer {
     background: #18214a;
     padding-top: 37px;
     height: 165px;
-    font-size: 14px;
 
-    img {
-        vertical-align: middle;
-        border-style: none;
+    .mail {
+        color: #FFF !important;
+        font-size: 14px;
     }
 }
 
@@ -112,6 +113,8 @@
     color: #FFF;
     text-align: right;
 }
+
+/* fin footer */
 
 #shop {
     height: 263px;
@@ -331,6 +334,35 @@ h2 {
     .shop_billet {
         width: 50%;
     }
+
+    /* section footer */
+
+    #footer {
+        height: 290px;
+
+        .logo_footer {
+            width: 50%;
+            margin-left: 28%;
+            margin-bottom: 5%;
+        }
+
+        .text_footer {
+            text-align: center;
+            font-size: 14px;
+        }
+
+        .mail {
+            font-size: 10px ;
+        }
+
+        .contactfooter {
+            text-align: center;
+            margin-top: 0;
+        }
+    }
+
+
+    
 }
 
 // Small devices (landscape phones, 576px and up)
