@@ -365,6 +365,13 @@ h2 {
     text-align: center;
     margin-top: 0;
   }
+
+  #section_insta .insta {
+    width: 100%;
+  }
+  #section_insta .title_insta {
+    text-align: center;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
