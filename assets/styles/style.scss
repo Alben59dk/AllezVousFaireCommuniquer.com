@@ -347,12 +347,13 @@ h2 {
         }
 
         .text_footer {
-            text-align: center;
             font-size: 14px;
+            font-family: 'Monserrat';
         }
 
         .mail {
-            font-size: 10px ;
+            font-size: 14px ;
+
         }
 
         .contactfooter {
@@ -399,6 +400,30 @@ h2 {
     .wrapLogo {
         width: 100%;
         font-size: 8px;
+    }
+
+    /* section footer */
+    
+    #footer {
+        height: 350px;
+
+        .container {
+            padding-top: 8%;
+        }
+
+        .text_footer {
+            text-align: center;
+            font-size: 14px;
+        }
+
+        .mail {
+            font-size: 14px ;
+        }
+
+        .contactfooter {
+            text-align: center;
+            margin-top: 0;
+        }
     }
 }
 
