@@ -216,10 +216,6 @@
     text-align: center;
 }
 
-h2 {
-    font-size: 1.9rem !important;
-}
-
 .firstCol, .secondCol, .thirdCol {
     text-align: center;
 }
@@ -352,13 +348,32 @@ h2 {
         }
 
         .mail {
-            font-size: 14px ;
+            font-size: 14px !important;
 
         }
 
         .contactfooter {
             text-align: center;
             margin-top: 0;
+        }
+    }
+
+    #section_insta {
+
+        .insta {
+            width: 90%;
+        }
+
+        .title_insta {
+            text-align: center;
+        }
+
+        .text_insta {
+            font-size: 10px;
+        }
+
+        h2 {
+            font-size: 20px;
         }
     }
 
