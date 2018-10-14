@@ -194,10 +194,6 @@
   text-align: center;
 }
 
-h2 {
-  font-size: 1.9rem !important;
-}
-
 .firstCol, .secondCol, .thirdCol {
   text-align: center;
 }
@@ -315,11 +311,24 @@ h2 {
     font-family: "Monserrat";
   }
   #footer .mail {
-    font-size: 14px;
+    font-size: 14px !important;
   }
   #footer .contactfooter {
     text-align: center;
     margin-top: 0;
+  }
+
+  #section_insta .insta {
+    width: 90%;
+  }
+  #section_insta .title_insta {
+    text-align: center;
+  }
+  #section_insta .text_insta {
+    font-size: 10px;
+  }
+  #section_insta h2 {
+    font-size: 20px;
   }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
