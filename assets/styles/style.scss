@@ -116,15 +116,11 @@
 #shop {
     height: 263px;
     background: #ebebeb;
-    padding: 0px;
 
     .container {
         height: 100%;
     }
 
-    .relative {
-        position: relative;
-    }
     .shop_billet {
         position: absolute;
         top: -28px;
@@ -142,6 +138,12 @@
 
 .btn_shop {
     text-align: center;
+    border: 2px solid #435190;
+
+    a {
+        color: #435190;
+        text-transform: uppercase;
+    }
 }
 
 
@@ -186,6 +188,7 @@
     .guillemetUp {
         margin-bottom: 5%;
     }
+
     .guillemetDown {
         margin-top: 5%;
         margin-left: 90%;
@@ -320,6 +323,14 @@
     .intro{
         margin-top: 10%;
     } 
+
+    .hack_overflow {
+        
+    }
+
+    .shop_billet {
+        width: 50%;
+    }
 }
 
 // Small devices (landscape phones, 576px and up)

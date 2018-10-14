@@ -111,13 +111,9 @@
 #shop {
   height: 263px;
   background: #ebebeb;
-  padding: 0px;
 }
 #shop .container {
   height: 100%;
-}
-#shop .relative {
-  position: relative;
 }
 #shop .shop_billet {
   position: absolute;
@@ -134,6 +130,11 @@
 
 .btn_shop {
   text-align: center;
+  border: 2px solid #435190;
+}
+.btn_shop a {
+  color: #435190;
+  text-transform: uppercase;
 }
 
 .hack_overflow {
@@ -296,6 +297,10 @@
   /* section1 */
   .intro {
     margin-top: 10%;
+  }
+
+  .shop_billet {
+    width: 50%;
   }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
