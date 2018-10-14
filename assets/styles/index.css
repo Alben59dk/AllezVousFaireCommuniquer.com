@@ -90,15 +90,15 @@
   color: #FFF !important;
 }
 
+/* footer */
 #footer {
   background: #18214a;
   padding-top: 37px;
   height: 165px;
-  font-size: 14px;
 }
-#footer img {
-  vertical-align: middle;
-  border-style: none;
+#footer .mail {
+  color: #FFF !important;
+  font-size: 14px;
 }
 
 .contactfooter {
@@ -108,6 +108,7 @@
   text-align: right;
 }
 
+/* fin footer */
 #shop {
   height: 263px;
   background: #ebebeb;
@@ -298,6 +299,27 @@ h2 {
 
   .shop_billet {
     width: 50%;
+  }
+
+  /* section footer */
+  #footer {
+    height: 290px;
+  }
+  #footer .logo_footer {
+    width: 50%;
+    margin-left: 28%;
+    margin-bottom: 5%;
+  }
+  #footer .text_footer {
+    text-align: center;
+    font-size: 14px;
+  }
+  #footer .mail {
+    font-size: 10px;
+  }
+  #footer .contactfooter {
+    text-align: center;
+    margin-top: 0;
   }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
