@@ -356,13 +356,35 @@
         }
 
         .mail {
-            font-size: 14px ;
+            font-size: 14px !important;
 
         }
 
         .contactfooter {
             text-align: center;
             margin-top: 0;
+        }
+    }
+
+    /* section insta */
+
+    #section_insta {
+
+        .insta {
+            width: 90%;
+        }
+
+        .title_insta {
+            text-align: center;
+            font-size: 16px !important;
+        }
+
+        .text_insta {
+            font-size: 10px;
+        }
+
+        h2 {
+            font-size: 20px;
         }
     }
 
@@ -375,7 +397,7 @@
 
 }
 
-// Medium devices (tablets, 768px and up)
+// medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 1024px) {
     .logo {
         width: 60%;
