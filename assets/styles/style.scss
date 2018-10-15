@@ -32,6 +32,7 @@
 .hide {
     display: none;
 }
+
 .play {
     display: inline-flex;
 
@@ -179,12 +180,12 @@
 
     .citation {
         position: relative;
-        width: 375px;
+        width: 100%;
         font-size: 21px;
         color: #5161a8;
         font-family: 'Montserrat', sans-serif;
         text-align: justify;
-
+        padding-bottom: 0;
         font-style: italic;
     }
 
@@ -193,9 +194,7 @@
     }
 
     .guillemetDown {
-        margin-top: 5%;
         margin-left: 90%;
-        margin-bottom: 10%;
     }
 
     .btn-simple {
@@ -210,8 +209,6 @@
 /* section insta */
 
 .pictocom {
-    /*left: 50%;
-    margin-left: -39px;*/
     padding: 62px;
     text-align: center;
 }
@@ -330,10 +327,6 @@
     .intro{
         margin-top: 10%;
     } 
-
-    .hack_overflow {
-        
-    }
 
     .shop_billet {
         width: 50%;

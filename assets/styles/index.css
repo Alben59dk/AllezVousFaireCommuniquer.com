@@ -163,20 +163,19 @@
 }
 #block .citation {
   position: relative;
-  width: 375px;
+  width: 100%;
   font-size: 21px;
   color: #5161a8;
   font-family: "Montserrat", sans-serif;
   text-align: justify;
+  padding-bottom: 0;
   font-style: italic;
 }
 #block .guillemetUp {
   margin-bottom: 5%;
 }
 #block .guillemetDown {
-  margin-top: 5%;
   margin-left: 90%;
-  margin-bottom: 10%;
 }
 #block .btn-simple {
   border-bottom: solid 2px #5161a8;
@@ -188,8 +187,6 @@
 
 /* section insta */
 .pictocom {
-  /*left: 50%;
-  margin-left: -39px;*/
   padding: 62px;
   text-align: center;
 }
