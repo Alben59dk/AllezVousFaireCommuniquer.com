@@ -318,11 +318,13 @@
     margin-top: 0;
   }
 
+  /* section insta */
   #section_insta .insta {
     width: 90%;
   }
   #section_insta .title_insta {
     text-align: center;
+    font-size: 16px !important;
   }
   #section_insta .text_insta {
     font-size: 10px;

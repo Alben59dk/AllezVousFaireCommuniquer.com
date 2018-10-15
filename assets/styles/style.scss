@@ -358,6 +358,8 @@
         }
     }
 
+    /* section insta */
+
     #section_insta {
 
         .insta {
@@ -366,6 +368,7 @@
 
         .title_insta {
             text-align: center;
+            font-size: 16px !important;
         }
 
         .text_insta {
@@ -386,7 +389,7 @@
 
 }
 
-// Medium devices (tablets, 768px and up)
+// medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 1024px) {
     .logo {
         width: 60%;
