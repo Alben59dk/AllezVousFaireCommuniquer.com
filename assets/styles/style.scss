@@ -216,8 +216,10 @@
     text-align: center;
 }
 
-h2 {
-    font-size: 1.9rem !important;
+.title_insta {
+    font-size: 20px;
+    font-size: bold;
+    text-align: center;
 }
 
 .firstCol, .secondCol, .thirdCol {
@@ -226,6 +228,8 @@ h2 {
 
 .text_insta {
     text-align: center;
+    font-size: 12px;
+    opacity: 0.7;
     margin-bottom: 3%;
 }
 
@@ -430,10 +434,6 @@ h2 {
 
         .insta {
             width: 100%;
-        }
-
-        .title_insta {
-            text-align: center;
         }
     }
 }
