@@ -122,9 +122,6 @@
   right: -50%;
   margin-right: 342px;
 }
-#shop .bton-site {
-  margin-left: 100px;
-}
 #shop .shop_img {
   padding: 30px 10px;
 }
@@ -302,6 +299,11 @@
     width: 50%;
   }
 
+  /* section shop */
+  .shop_billet {
+    display: none;
+  }
+
   /* section footer */
   #footer {
     height: 290px;
@@ -361,6 +363,15 @@
   .wrapLogo {
     width: 100%;
     font-size: 8px;
+  }
+
+  /* section shop */
+  .shop_billet {
+    display: none;
+  }
+
+  .btn_shop {
+    width: 284px;
   }
 
   /* section footer */
