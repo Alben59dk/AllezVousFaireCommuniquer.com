@@ -1,11 +1,12 @@
+/* header */
 .masterhead {
   background: url(../img/bg.png) no-repeat center;
   height: 670px;
   width: 100%;
   position: relative;
 }
-.masterhead .communiquer {
-  top: 80px;
+.masterhead .logo {
+  margin-top: 25%;
 }
 .masterhead .btn-link {
   position: relative;
@@ -46,18 +47,15 @@
 .wrapLogo {
   display: inline-block;
   border: 2px solid white;
-  width: 226px;
-  font-size: 14px;
   font-weight: bold;
-  font-weight: 600;
   padding: 0px 12px;
   float: left;
   height: 30px;
   line-height: 27px;
+  margin-left: 10%;
   top: 23px;
   color: white !important;
   text-transform: uppercase;
-  flex: 0 0 17%;
 }
 .wrapLogo strong {
   color: #de700a;
@@ -346,13 +344,14 @@
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   .logo {
-    width: 60%;
+    width: 100%;
+    margin-top: 15% !important;
   }
 
   .communiquer {
     text-align: center;
-    margin-top: 10%;
-    margin-left: 25%;
+    margin-top: 15%;
+    margin-left: 45%;
   }
 
   .citation {

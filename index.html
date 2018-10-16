@@ -15,6 +15,8 @@
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,700i" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./node_modules/modal-video/css/modal-video.min.css">
+
 
     <title>Integration</title>
   </head>
@@ -34,7 +36,7 @@
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
+                <ul class="navbar-nav m-auto">
                   <li class="nav-item">
                     <a class="spectacle nav-link" href="#">LE SPECTACLE <span class="sr-only">(current)</span></a>
                   </li>
@@ -63,9 +65,10 @@
         </div>
         <div class="col-sm-12 btn-teaser">
           <button
-            class="btn btn-link btn-lg active" 
+            class="btn btn-link btn-lg active js-modal-btn" 
             role="button" 
             aria-pressed="true"
+            data-video-id="bDXwpMh2pes"
           >    
           <div class="inside-btn">
             <div class="play">
@@ -119,11 +122,23 @@
           <div class="col-xs-12 col-md-12 shop_shop ">
             <img src="./assets/img/shop.png" class="shop_img rounded mx-auto d-block">
             <div class="btn_shop rounded mx-auto d-block">
-              <div class="billet_picto">
+                    <button
+                    class="btn btn-link btn-lg active" 
+                    role="button" 
+                    aria-pressed="true"
+                  >    
+                  <div class="inside-btn">
+                    <div class="billet_picto">
+                        <img src="./assets/img/billet_picto.png" />
+                    </div>
+                      billetrie
+                    </div>
+                  </button>
+              <!--<div class="billet_picto">
                 <img src="./assets/img/billet_picto.png" />
               </div>
-              <a href="http://www.comediedeparis.com/allez-tous-vous-faire-commmuniquer/spectacle/227" class="btn-site btn-color">billeterie</a>
-            </div>  
+              <a href="http://www.comediedeparis.com/allez-tous-vous-faire-commmuniquer/spectacle/227" class="btn-site btn-color">billeterie</a> -->
+            </div> 
           </div>
           <div class="hack_overflow">
             <img src="./assets/img/billet.png" class="shop_billet">
@@ -207,11 +222,13 @@
     
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
     <script src='./node_modules/elevator.js/elevator.min.js'></script>
+    <script src="./node_modules/modal-video/js/jquery-modal-video.min.js"></script>
+
 
 
 
@@ -253,5 +270,18 @@
         // You can run the elevator, by calling.
         elevator.elevate();
     </script> 
+
+    <script>
+        $( document ).ready(function() {
+            $(".js-modal-btn").modalVideo();        
+    });
+        
+    </script>
+
+    <script>
+        $('html,body').animate({
+          scrollTop: 450 },
+          'slow');
+    </script>
   </body>
 </html>
