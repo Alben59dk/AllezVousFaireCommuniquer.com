@@ -30,9 +30,6 @@
         
     }
 }
-.hide {
-    display: none;
-}
 
 .play {
     display: inline-flex;
@@ -138,9 +135,17 @@
     .shop_img {
         padding: 30px 10px;
     }
+
+    .btn-link {
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #5161a8;
+        text-decoration: none;
+        margin-left: 26%;
+    }
 }
 
-.btn_shop {
+.btn-lg {
     text-align: center;
     border: 2px solid #435190;
 
@@ -149,6 +154,8 @@
         text-transform: uppercase;
     }
 }
+
+
 
 
 .hack_overflow {
