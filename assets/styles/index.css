@@ -82,6 +82,10 @@
   color: #de700a !important;
 }
 
+.bg-light {
+  background-color: #5263ba !important;
+}
+
 .active {
   width: 155px;
 }
