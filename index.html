@@ -16,8 +16,6 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,700i" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./node_modules/modal-video/css/modal-video.min.css">
-    <link rel="stylesheet" href="./assets/js/main.js">
-
 
     <title>Integration</title>
   </head>
@@ -29,7 +27,7 @@
       <div class="container">
         <div class="row">
           <div class="menu col-12">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <nav class="navbar navbar-expand-lg navbar-light bg-link fixed-top">
               <a class=" wrapLogo navbar-brand" href="#">
                 one man <strong>conf</strong> show
               </a>
@@ -64,9 +62,9 @@
         <div class="offset-6 communiquer">
           <img class="logo" src="./assets/img/logo.png" />
         </div>
-        <div class="col-sm-12 btn-teaser">
+        <div class="offset-lg-7 btn-teaser">
           <button
-            class="btn btn-link btn-lg active js-modal-btn" 
+            class="btn btn-link btn-lg active js-modal-btn mx-auto" 
             role="button" 
             aria-pressed="true"
             data-video-id="bDXwpMh2pes"
@@ -141,9 +139,9 @@
               <a href="http://www.comediedeparis.com/allez-tous-vous-faire-commmuniquer/spectacle/227" class="btn-site btn-color">billeterie</a> -->
             </div> 
           </div>
-          <div class="hack_overflow">
+          <!--<div class="hack_overflow">
             <img src="./assets/img/billet.png" class="shop_billet">
-          </div>
+          </div>-->
         </div>
       </div>
     </section>
@@ -226,59 +224,8 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
-    <script src='./node_modules/elevator.js/elevator.min.js'></script>
-    <script src="./node_modules/modal-video/js/jquery-modal-video.min.js"></script>
-
-
-
-
-    
-    <script>
-      $('.slicky').slick({
-        dots: true,
-        autoplay:true,
-        infinite: true,
-        speed: 500,
-        fade: true,
-        cssEase: 'linear'
-      });
-    </script>
-
-    <script type="text/javascript">
-        $(document).ready(function(){
-        $('.inside-btn').click(function() {
-        $('#hidden').removeClass(hide);
-        })
-    })
-    </script>
-
-    <div class= "elevator-button">Haut de page</div>
-
-    <script>
-        // Elevator script included on the page, already.
-        
-        window.onload = function() {
-        var elevator = new Elevator({
-            element: document.querySelector('.elevator-button'),
-            targetElement:document.querySelector('#elevator-target'),
-            verticalPadding : 100 ,
-            mainAudio: './assets/audio/elevator.mp3',
-
-        });
-        }
-        
-        // You can run the elevator, by calling.
-        elevator.elevate();
-    </script> 
-
-    <script>
-        $( document ).ready(function() {
-            $(".js-modal-btn").modalVideo();        
-    });
-        
-    </script>
-
+    <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>    <script src="./node_modules/modal-video/js/jquery-modal-video.min.js"></script>
+    <script src="./assets/js/main.js"></script>
     
   </body>
 </html>
