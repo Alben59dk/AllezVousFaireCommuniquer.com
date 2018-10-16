@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,700i" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./node_modules/modal-video/css/modal-video.min.css">
+    <link rel="stylesheet" href="./assets/js/main.js">
 
 
     <title>Integration</title>
@@ -38,19 +39,19 @@
               <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav m-auto">
                   <li class="nav-item">
-                    <a class="spectacle nav-link" href="#">LE SPECTACLE <span class="sr-only">(current)</span></a>
+                    <a class="spectacle nav-link" href="#" data-scroll="accueil">LE SPECTACLE <span class="sr-only">(current)</span></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" onclick="javascript:location.href='#shop'">BILLETERIE</a>
+                    <a class="nav-link" href="#" data-scroll="shop">BILLETERIE</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" onclick="javascript:location.href='#section_insta'">#ALLEZVOUSFAIRECOMMUNIQuER</a>
+                    <a class="nav-link" href="#" data-scroll="section_insta">#ALLEZVOUSFAIRECOMMUNIQuER</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" onclick="javascript:location.href='#section_final'">TEMOIGNAGES</a>
+                    <a class="nav-link" href="#" data-scroll="section_final">TEMOIGNAGES</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" onclick="javascript:location.href='#footer'">CONTACT</a>
+                    <a class="nav-link" href="#" data-scroll="footer">CONTACT</a>
                   </li>
                   <li>
                     <a href="#"><img src="./assets/img/Picto_ticket.png" alt="pictobillet"></a>
@@ -278,10 +279,6 @@
         
     </script>
 
-    <script>
-        $('html,body').animate({
-          scrollTop: 450 },
-          'slow');
-    </script>
+    
   </body>
 </html>
