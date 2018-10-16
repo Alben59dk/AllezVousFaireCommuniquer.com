@@ -22,7 +22,7 @@
 
   <body>
     <!-- Header -->
-    <!-- <header class="masterhead" id="accueil">
+    <header class="masterhead" id="accueil">
       <div class="container">
         <div class="row">
           <div class="menu col-12">
@@ -39,16 +39,16 @@
                     <a class="spectacle nav-link" href="#">LE SPECTACLE <span class="sr-only">(current)</span></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">BILLETERIE</a>
+                    <a class="nav-link" onclick="javascript:location.href='#shop'">BILLETERIE</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">#ALLEZVOUSFAIRECOMMUNIQuER</a>
+                    <a class="nav-link" onclick="javascript:location.href='#section_insta'">#ALLEZVOUSFAIRECOMMUNIQuER</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">TEMOIGNAGES</a>
+                    <a class="nav-link" onclick="javascript:location.href='#final'">TEMOIGNAGES</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">CONTACT</a>
+                    <a class="nav-link" onclick="javascript:location.href='#footer'">CONTACT</a>
                   </li>
                   <li>
                     <a href="#"><img src="./assets/img/Picto_ticket.png" alt="pictobillet"></a>
@@ -76,7 +76,7 @@
           </button>
         </div>
       </div>
-    </header> -->
+    </header>
     
     <!--section 1 -->
     <section id="section_one">
@@ -211,6 +211,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
+    <script src='./node_modules/elevator.js/elevator.min.js'></script>
 
 
 
@@ -233,5 +234,24 @@
         })
     })
     </script>
+
+    <div class= "elevator-button">Haut de page</div>
+
+    <script>
+        // Elevator script included on the page, already.
+        
+        window.onload = function() {
+        var elevator = new Elevator({
+            element: document.querySelector('.elevator-button'),
+            targetElement:document.querySelector('#elevator-target'),
+            verticalPadding : 100 ,
+            mainAudio: './assets/audio/elevator.mp3',
+
+        });
+        }
+        
+        // You can run the elevator, by calling.
+        elevator.elevate();
+    </script> 
   </body>
 </html>
