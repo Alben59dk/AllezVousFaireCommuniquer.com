@@ -1,4 +1,6 @@
 
+/* permet en cliquant sur les nav-link de descendre en balayant le site */
+
 $( document ).ready(function() {
     let link = ''
 
@@ -16,6 +18,8 @@ $( document ).ready(function() {
         return(false)
     })
 
+    /* carousel */
+
     $('.slicky').slick({
         dots: true,
         autoplay:true,
@@ -25,19 +29,22 @@ $( document ).ready(function() {
         cssEase: 'linear'
     });
 
+    /* modal video */
+
     $( document ).ready(function() {
         $(".js-modal-btn").modalVideo();        
     });
 
+    /* navbar qui passe de link à color en scrollant à la section suivante */
+
     $(window).scroll(function () {
-        if ($(window).scrollTop() >= 670) {
+        if ($(window).scrollTop() >= (569)) {
         $('.navbar').css('background','#5263ba');
         } else {
         $('.navbar').css('background','transparent');
         }
         });
-    
-}); 
+    }); 
 
 
 
