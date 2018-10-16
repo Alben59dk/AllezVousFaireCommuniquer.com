@@ -10,10 +10,6 @@
         margin-top: 25%;
     }
 
-    .btn-teaser {
-
-    }
-    
     .btn-link {
         position: relative;
         text-transform: uppercase;
@@ -176,7 +172,6 @@
     .intro {
         font-size: 14px;
         font-family: 'Montserrat';
-        font-weight: bold;
         color: #37334a;
         justify-content: center;
         text-align: justify;
@@ -208,6 +203,12 @@
         font-size: 14px;
         margin-top: 5%;
     }
+
+    .btn-simple {
+        text-decoration: none;
+        font-weight: bold;
+    }
+
 }
 
 /* section insta */
