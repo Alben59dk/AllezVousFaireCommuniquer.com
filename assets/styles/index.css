@@ -1,18 +1,17 @@
+/* header */
 .masterhead {
   background: url(../img/bg.png) no-repeat center;
   height: 670px;
   width: 100%;
   position: relative;
 }
-.masterhead .communiquer {
-  top: 80px;
+.masterhead .logo {
+  margin-top: 25%;
 }
 .masterhead .btn-link {
   position: relative;
   text-transform: uppercase;
   margin-top: 156px;
-  left: 50%;
-  margin-left: 89px;
   border: 2px #FFF solid;
   width: 257px;
   height: 44px;
@@ -24,10 +23,6 @@
 }
 .masterhead .btn-link .icon_play {
   position: absolute;
-}
-
-.hide {
-  display: none;
 }
 
 .play {
@@ -46,18 +41,15 @@
 .wrapLogo {
   display: inline-block;
   border: 2px solid white;
-  width: 226px;
-  font-size: 14px;
   font-weight: bold;
-  font-weight: 600;
   padding: 0px 12px;
   float: left;
   height: 30px;
   line-height: 27px;
+  margin-left: 10%;
   top: 23px;
   color: white !important;
   text-transform: uppercase;
-  flex: 0 0 17%;
 }
 .wrapLogo strong {
   color: #de700a;
@@ -82,6 +74,10 @@
   color: #de700a !important;
 }
 
+.bg-light {
+  background-color: #5263ba !important;
+}
+
 .active {
   width: 155px;
 }
@@ -97,7 +93,7 @@
   height: 165px;
 }
 #footer .mail {
-  color: #FFF !important;
+  color: orange !important;
   font-size: 14px;
 }
 
@@ -108,7 +104,7 @@
   text-align: right;
 }
 
-/* fin footer */
+/* shop */
 #shop {
   height: 263px;
   background: #ebebeb;
@@ -122,18 +118,22 @@
   right: -50%;
   margin-right: 342px;
 }
-#shop .bton-site {
-  margin-left: 100px;
-}
 #shop .shop_img {
   padding: 30px 10px;
 }
+#shop .btn-link {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #5161a8;
+  text-decoration: none;
+  margin-left: 30%;
+}
 
-.btn_shop {
+.btn-lg {
   text-align: center;
   border: 2px solid #435190;
 }
-.btn_shop a {
+.btn-lg a {
   color: #435190;
   text-transform: uppercase;
 }
@@ -150,33 +150,32 @@
   background: #5161a8;
 }
 
+/* intro */
 #block {
   padding: 62px 0px;
 }
 #block .intro {
   font-size: 14px;
   font-family: "Montserrat";
-  font-weight: bold;
   color: #37334a;
   justify-content: center;
   text-align: justify;
 }
 #block .citation {
   position: relative;
-  width: 375px;
+  width: 100%;
   font-size: 21px;
   color: #5161a8;
   font-family: "Montserrat", sans-serif;
   text-align: justify;
+  padding-bottom: 0;
   font-style: italic;
 }
 #block .guillemetUp {
   margin-bottom: 5%;
 }
 #block .guillemetDown {
-  margin-top: 5%;
   margin-left: 90%;
-  margin-bottom: 10%;
 }
 #block .btn-simple {
   border-bottom: solid 2px #5161a8;
@@ -185,12 +184,21 @@
   font-size: 14px;
   margin-top: 5%;
 }
+#block .btn-simple {
+  text-decoration: none;
+  font-weight: bold;
+}
 
 /* section insta */
 .pictocom {
-  /*left: 50%;
-  margin-left: -39px;*/
   padding: 62px;
+  text-align: center;
+}
+
+.title_insta {
+  font-size: 38px;
+  font-family: "Montserat", sans-serif;
+  font-size: bold;
   text-align: center;
 }
 
@@ -200,25 +208,31 @@
 
 .text_insta {
   text-align: center;
+  font-size: 12px;
+  opacity: 0.7;
   margin-bottom: 3%;
 }
 
 .insta {
   margin-bottom: 30px;
-}
-
-.plusphoto {
-  text-align: center;
-  margin: auto;
-  margin-top: 52px;
-  margin-bottom: 100px;
+  width: 100%;
 }
 
 .textplusphoto {
   color: #37334a;
   text-transform: uppercase;
-  border-bottom: 2px #37334a solid;
   font-weight: bold;
+  width: 20%;
+  border-bottom: 2px #37334a solid;
+  margin-left: 40%;
+}
+
+.photo {
+  width: 100%;
+}
+
+.btn-link:hover {
+  text-decoration: none;
 }
 
 .instatext {
@@ -284,7 +298,6 @@
   }
 
   .wrapLogo {
-    width: 100%;
     font-size: 10px;
   }
 
@@ -295,6 +308,11 @@
 
   .shop_billet {
     width: 50%;
+  }
+
+  /* section shop */
+  .shop_billet {
+    display: none;
   }
 
   /* section footer */
@@ -329,33 +347,39 @@
   #section_insta .text_insta {
     font-size: 10px;
   }
-  #section_insta h2 {
-    font-size: 20px;
-  }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   .logo {
-    width: 60%;
+    width: 80%;
+    margin-top: 1% !important;
+  }
+
+  .wrapLogo {
+    margin-left: 0;
   }
 
   .communiquer {
     text-align: center;
-    margin-top: 10%;
-    margin-left: 25%;
+    margin-top: 15%;
+    margin-left: 45%;
   }
 
   .citation {
     padding-bottom: 10%;
   }
 
-  .btn-link {
-    left: 50%;
-    margin-left: -41px;
+  .wrapLogo {
+    font-size: 8px;
   }
 
-  .wrapLogo {
-    width: 100%;
-    font-size: 8px;
+  /* section shop */
+  .shop_billet {
+    right: -6% !important;
+    margin-right: 0;
+  }
+
+  .btn_shop {
+    width: 284px;
   }
 
   /* section footer */
@@ -380,8 +404,14 @@
   #section_insta .insta {
     width: 100%;
   }
-  #section_insta .title_insta {
-    text-align: center;
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .shop_billet {
+    display: none;
+  }
+
+  #shop .btn-link {
+    margin-left: 38%;
   }
 }
 
