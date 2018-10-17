@@ -105,7 +105,7 @@
   text-align: right;
 }
 
-/* fin footer */
+/* shop */
 #shop {
   height: 263px;
   background: #ebebeb;
@@ -151,6 +151,7 @@
   background: #5161a8;
 }
 
+/* intro */
 #block {
   padding: 62px 0px;
 }
@@ -218,18 +219,21 @@
   width: 100%;
 }
 
-.plusphoto {
-  text-align: center;
-  margin: auto;
-  margin-top: 52px;
-  margin-bottom: 100px;
-}
-
 .textplusphoto {
   color: #37334a;
   text-transform: uppercase;
-  border-bottom: 2px #37334a solid;
   font-weight: bold;
+  width: 20%;
+  border-bottom: 2px #37334a solid;
+  margin-left: 40%;
+}
+
+.photo {
+  width: 100%;
+}
+
+.btn-link:hover {
+  text-decoration: none;
 }
 
 .instatext {
@@ -343,9 +347,6 @@
   }
   #section_insta .text_insta {
     font-size: 10px;
-  }
-  #section_insta h2 {
-    font-size: 20px;
   }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
