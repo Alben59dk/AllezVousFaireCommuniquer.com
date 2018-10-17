@@ -13,8 +13,7 @@
     .btn-link {
         position: relative;
         text-transform: uppercase;
-        margin-top: 156px;
-        margin-left: 89px;      
+        margin-top: 156px;    
         border: 2px #FFF solid;
         width: 257px;
         height: 44px;
@@ -416,12 +415,12 @@
 // medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 1024px) {
     .logo {
-        width: 100%;
-        margin-top: 15% !important;
+        width: 80%;
+        margin-top: 1% !important;
     }
 
     .wrapLogo {
-        
+        margin-left: 0;
     }
 
     .communiquer {
@@ -436,8 +435,7 @@
     }
 
     .btn-link {
-        left: 50%;
-        margin-left: -41px;
+        left: 0;
     }
 
     .btn-teaser {
