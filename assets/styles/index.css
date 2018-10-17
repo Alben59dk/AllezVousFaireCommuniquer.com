@@ -115,8 +115,7 @@
 #shop .shop_billet {
   position: absolute;
   top: -28px;
-  right: -50%;
-  margin-right: 342px;
+  right: -10%;
 }
 #shop .shop_img {
   padding: 30px 10px;
