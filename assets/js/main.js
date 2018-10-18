@@ -44,6 +44,13 @@ $( document ).ready(function() {
         $('.navbar').css('background','transparent');
         }
         });
+        
+
+    // animation header parallax 
+
+    var scene = document.getElementById('accueil');
+    var parallaxInstance = new Parallax(accueil);
+    
     }); 
 
 
