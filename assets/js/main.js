@@ -1,5 +1,5 @@
 
-/* permet en cliquant sur les nav-link de descendre en balayant le site */
+// permet en cliquant sur les nav-link de descendre en balayant le site 
 
 $( document ).ready(function() {
     let link = ''
@@ -18,7 +18,7 @@ $( document ).ready(function() {
         return(false)
     })
 
-    /* carousel */
+    // carousel 
 
     $('.slicky').slick({
         dots: true,
@@ -29,13 +29,13 @@ $( document ).ready(function() {
         cssEase: 'linear'
     });
 
-    /* modal video */
+    // modal video 
 
     $( document ).ready(function() {
         $(".js-modal-btn").modalVideo();        
     });
 
-    /* navbar qui passe de link à color en scrollant à la section suivante */
+    // navbar qui passe de link à color en scrollant à la section suivante 
 
     $(window).scroll(function () {
         if ($(window).scrollTop() >= (569)) {
@@ -44,6 +44,12 @@ $( document ).ready(function() {
         $('.navbar').css('background','transparent');
         }
         });
+
+    // background navbar
+
+    
+
+
     }); 
 
 
