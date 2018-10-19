@@ -47,7 +47,6 @@ $( document ).ready(function() {
 
     // effect
 
-    AOS.init();
 
     }); 
 
