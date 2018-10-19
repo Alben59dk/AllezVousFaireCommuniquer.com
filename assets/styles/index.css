@@ -139,6 +139,7 @@
   position: absolute;
   top: -28px;
   right: -10%;
+  z-index: 999;
 }
 #shop .shop_img {
   padding: 30px 10px;
@@ -412,6 +413,10 @@
   #accueil .btn-teaser {
     right: 35%;
     width: 172px;
+  }
+
+  .textplusphoto {
+    width: 30px !important;
   }
 }
 

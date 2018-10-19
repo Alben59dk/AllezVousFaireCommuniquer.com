@@ -157,6 +157,7 @@
         position: absolute;
         top: -28px;
         right: -10%;
+        z-index: 999;
         
     }
     
@@ -496,6 +497,10 @@
             right: 35%; 
             width: 172px;   
             }
+    }
+
+    .textplusphoto {
+        width: 30px !important;
     }
 }
 
