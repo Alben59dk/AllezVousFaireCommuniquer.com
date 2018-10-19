@@ -45,10 +45,9 @@ $( document ).ready(function() {
         }
         });
 
-    // background navbar
+    // effect
 
-    
-
+    AOS.init();
 
     }); 
 
