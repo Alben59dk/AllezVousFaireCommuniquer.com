@@ -17,6 +17,9 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,700i" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./node_modules/modal-video/css/modal-video.min.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./node_modules/hover.css/css/hover.css" />
+    <link rel="stylesheet" href="http://anijs.github.io/lib/anicollection/anicollection.css">
+
 
     <title>Integration</title>
 </head>
@@ -38,22 +41,22 @@
                             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                                 <ul class="navbar-nav m-auto">
                                     <li class="nav-item">
-                                        <a class="spectacle nav-link" href="#" data-scroll="accueil">LE SPECTACLE <span class="sr-only">(current)</span></a>
+                                        <a class="spectacle nav-link" data-anijs="if: click, do: flipInY animated" href="#" data-scroll="accueil">LE SPECTACLE <span class="sr-only">(current)</span></a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#" data-scroll="shop">BILLETERIE</a>
+                                        <a class="nav-link" href="#" data-anijs="if: click, do: flipInY animated" data-scroll="shop">BILLETERIE</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#" data-scroll="section_insta">#ALLEZVOUSFAIRECOMMUNIQuER</a>
+                                        <a class="nav-link" href="#" data-anijs="if: click, do: flipInY animated" data-scroll="section_insta">#ALLEZVOUSFAIRECOMMUNIQuER</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#" data-scroll="section_final">TEMOIGNAGES</a>
+                                        <a class="nav-link" href="#" data-anijs="if: click, do: flipInY animated" data-scroll="section_final">TEMOIGNAGES</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#" data-scroll="footer">CONTACT</a>
+                                        <a class="nav-link" href="#" data-anijs="if: click, do: flipInY animated" data-scroll="footer">CONTACT</a>
                                     </li>
                                     <li>
-                                        <a href="http://www.comediedeparis.com/allez-tous-vous-faire-commmuniquer/spectacle/227" target="_blank"><img src="./assets/img/Picto_ticket.png" alt="pictobillet"></a>
+                                        <a href="http://www.comediedeparis.com/allez-tous-vous-faire-commmuniquer/spectacle/227" target="_blank"><img class="rubberBand animated" src="./assets/img/Picto_ticket.png" alt="pictobillet"></a>
                                     </li>
                                 </ul>
                             </div>
@@ -61,23 +64,28 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="offset-6 communiquer" data-aos="fade-up" data-aos-duration="3000">
+                    <div 
+                    class="offset-lg-6 offset-xs-4" 
+                    data-aos="fade-up" 
+                    data-aos-duration="3000">
                         <img class="logo" src="./assets/img/logo.png" alt="logo" />
                     </div>
-                    <div class="offset-md-7 col-md-3 offset-lg-7 btn-teaser">
+                </div>
+                <div class="row>">
+                    <div class="offset-lg-7 offset-md-6">
                         <button
-                        class="btn btn-link btn-lg active js-modal-btn" 
+                        class="btn btn-link btn-lg active js-modal-btn"
                         aria-pressed="true"
                         data-video-id="bDXwpMh2pes"
-                        data-anijs="if: mouseover, do: rotateUpLeft animated"
                         >    
-                        <div class="inside-btn">
-                            <div class="play">
-                                <i class="fas fa-play"></i>
+                            <div class="inside-btn">
+                                <div class="play">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                                découvrez le teaser
                             </div>
-                            découvrez le teaser
-                        </div>
-                    </button>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -120,14 +128,15 @@
                     <a
                         class="btn btn-link btn-lg active" 
                         aria-pressed="true"
-                        href="http://www.comediedeparis.com/allez-tous-vous-faire-commmuniquer/spectacle/227"
+                        href="http://www.comediedeparis.com/allez-tous-vous-faire-commmuniquer/spectacle/227" 
+                        target="_blank"
                         >    
                         <div class="inside-btn">
                             billetrie
                         </div>
                     </a>
                 </div> 
-                <div class="col-xs-12 col-md-12 col-lg-9 hack_overflow" data-aos="fade-left" data-aos-duration="1000">
+                <div class="col-xs-12 col-md-12 col-lg-9 hack_overflow" data-aos="zoom-in" data-aos-duration="1000">
                     <img src="./assets/img/billet.png" class="shop_billet" alt="billet" />
                 </div>
             </div>    
@@ -151,19 +160,19 @@
             </div>
             <div class="row">
                 <div class="firstCol col-lg-4 col-md-4 col-xs-12">
-                    <img class="insta" src="./assets/img/converse.png" alt="chaussure" />
-                    <img class="insta" src="./assets/img/running.png" alt="running" />
-                    <img class="insta" src="./assets/img/enfant.png" alt="enfant" />
+                    <img class="insta" data-anijs="if: mouseover, do: tada animated" src="./assets/img/converse.png" alt="chaussure" />
+                    <img class="insta" data-anijs="if: mouseover, do: tada animated" src="./assets/img/running.png" alt="running" />
+                    <img class="insta" data-anijs="if: mouseover, do: tada animated" src="./assets/img/enfant.png" alt="enfant" />
                 </div>
                 <div class="secondCol col-lg-4 col-md-4 col-xs-12">
-                    <img class="insta" src="./assets/img/velo.png" alt="velo" />
-                    <img class="insta" src="./assets/img/sautemouton.png" alt="manu" />
-                    <img class="insta" src="./assets/img/fan.png" alt="fan" />
+                    <img class="insta" data-anijs="if: mouseover, do: tada animated" src="./assets/img/velo.png" alt="velo" />
+                    <img class="insta" data-anijs="if: mouseover, do: tada animated" src="./assets/img/sautemouton.png" alt="manu" />
+                    <img class="insta" data-anijs="if: mouseover, do: tada animated" src="./assets/img/fan.png" alt="fan" />
                 </div>
                 <div class="thirdCol col-lg-4 col-md-4 col-xs-12">
-                    <img class="insta" src="./assets/img/couchedesoleil.png" alt="soleil" />
-                    <img class="insta" src="./assets/img/soleil.png" alt="soleilcouchant" />
-                    <img class="insta" src="./assets/img/enfantjoyeux.png" alt="enfantjoyeux" />
+                    <img class="insta" data-anijs="if: mouseover, do: tada animated" src="./assets/img/couchedesoleil.png" alt="soleil" />
+                    <img class="insta" data-anijs="if: mouseover, do: tada animated" src="./assets/img/soleil.png" alt="soleilcouchant" />
+                    <img class="insta" data-anijs="if: mouseover, do: tada animated" src="./assets/img/enfantjoyeux.png" alt="enfantjoyeux" />
                 </div>
                 <div class="col-12 instatext">
                         <button
@@ -182,9 +191,8 @@
     <!-- Section final -->
     <section id="section_final">
         <div class="container">
-            <div class="row boxslicky" data-aos="flip-left"
-            data-aos-easing="ease-out-cubic"
-            data-aos-duration="2000">
+            <div 
+            class="row boxslicky"> 
                 <div class="col-12 guillemetslicky">
                     <img class="guillemet3" src="./assets/img/guillemet3.png" alt="guillemet" />
                 </div>
@@ -221,6 +229,7 @@
     <script src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>    <script src="./node_modules/modal-video/js/jquery-modal-video.min.js"></script>
     <script src="./assets/js/main.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./bower_components/AniJS/dist/anijs-min.js"></script>
 
     </body>
 </html>

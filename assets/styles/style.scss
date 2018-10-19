@@ -8,6 +8,11 @@
 
     .logo {
         margin-top: 25%;
+
+    }
+
+    .rubberBand {
+        animation-iteration-count: infinite;
     }
 
     .btn-link {
@@ -94,24 +99,48 @@
     color: #FFF !important;
 }
 
-/* footer */
 
-#footer {
-    background: #18214a;
-    padding-top: 37px;
-    height: 165px;
+/* intro */
 
-    .mail {
-        color:orange !important;
+#block {
+    padding: 62px 0px;
+
+    .intro {
         font-size: 14px;
+        font-family: 'Montserrat';
+        color: #37334a;
+        justify-content: center;
+        text-align: justify;
     }
-}
 
-.contactfooter {
-    margin-top: 10px;
-    float: right;
-    color: #FFF;
-    text-align: right;
+    .citation {
+        position: relative;
+        width: 100%;
+        font-size: 21px;
+        color: #5161a8;
+        font-family: 'Montserrat', sans-serif;
+        text-align: justify;
+        padding-bottom: 0;
+        font-style: italic;
+    }
+
+    .guillemetUp {
+        margin-bottom: 5%;
+    }
+
+    .guillemetDown {
+        margin-left: 90%;
+    }
+
+    .btn-simple {
+        border-bottom: solid 2px #5161a8;
+        color: #5161a8;
+        text-transform: uppercase;
+        font-size: 14px;
+        margin-top: 5%;
+        text-decoration: none;
+        font-weight: bold;
+    }
 }
 
 /* shop */
@@ -154,9 +183,6 @@
     }
 }
 
-
-
-
 .hack_overflow {
     float: right;
 
@@ -168,53 +194,6 @@
 .communiquer_text {
     color: rgb(255, 255, 255);
     background: #5161a8;
-}
-
-/* intro */
-
-#block {
-    padding: 62px 0px;
-
-    .intro {
-        font-size: 14px;
-        font-family: 'Montserrat';
-        color: #37334a;
-        justify-content: center;
-        text-align: justify;
-    }
-
-    .citation {
-        position: relative;
-        width: 100%;
-        font-size: 21px;
-        color: #5161a8;
-        font-family: 'Montserrat', sans-serif;
-        text-align: justify;
-        padding-bottom: 0;
-        font-style: italic;
-    }
-
-    .guillemetUp {
-        margin-bottom: 5%;
-    }
-
-    .guillemetDown {
-        margin-left: 90%;
-    }
-
-    .btn-simple {
-        border-bottom: solid 2px #5161a8;
-        color: #5161a8;
-        text-transform: uppercase;
-        font-size: 14px;
-        margin-top: 5%;
-    }
-
-    .btn-simple {
-        text-decoration: none;
-        font-weight: bold;
-    }
-
 }
 
 /* section insta */
@@ -312,11 +291,34 @@
 }
 
 
+/* footer */
+
+#footer {
+    background: #18214a;
+    padding-top: 37px;
+    height: 165px;
+
+    .mail {
+        color:orange !important;
+        font-size: 14px;
+    }
+}
+
+.contactfooter {
+    margin-top: 10px;
+    float: right;
+    color: #FFF;
+    text-align: right;
+}
+
+
+
 // Extra small devices (portrait phones, less than 576px)
 @media screen and (min-width: 320px) and (max-width: 414px) { 
     .logo {
-        width: 235px;
-        height: 129px;
+        width: 80%;
+        margin-top: 40% !important;
+        margin-left: 18%;
     }
 
     .communiquer {
@@ -412,33 +414,18 @@
 
 // medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 1024px) {
-    .logo {
-        width: 80%;
-        margin-top: 1% !important;
-    }
 
     .wrapLogo {
         margin-left: 0;
+        font-size: 8px;
     }
 
-    .communiquer {
-        text-align: center;
-        margin-top: 15%;
-        margin-left: 45%;
-        
-    }
+    /* intro */ 
 
     .citation {
         padding-bottom: 10%;
     }
 
-    .btn-teaser {
-        
-    }
-
-    .wrapLogo {
-        font-size: 8px;
-    }
 
     /* section shop */
 
@@ -488,6 +475,12 @@
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 768px) and (max-width: 1023px) {
+    .logo {
+        width: 80%;
+        margin-top: 30% !important;
+        margin-left: 60% !important;
+    }
+    
     .shop_billet {
         display: none;
     }
@@ -496,6 +489,13 @@
         .btn-link {
             margin-left: 38%;
         }
+    }
+
+    #accueil {
+        .btn-teaser {
+            right: 35%; 
+            width: 172px;   
+            }
     }
 }
 

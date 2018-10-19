@@ -8,6 +8,9 @@
 .masterhead .logo {
   margin-top: 25%;
 }
+.masterhead .rubberBand {
+  animation-iteration-count: infinite;
+}
 .masterhead .btn-link {
   position: relative;
   text-transform: uppercase;
@@ -86,22 +89,41 @@
   color: #FFF !important;
 }
 
-/* footer */
-#footer {
-  background: #18214a;
-  padding-top: 37px;
-  height: 165px;
+/* intro */
+#block {
+  padding: 62px 0px;
 }
-#footer .mail {
-  color: orange !important;
+#block .intro {
   font-size: 14px;
+  font-family: "Montserrat";
+  color: #37334a;
+  justify-content: center;
+  text-align: justify;
 }
-
-.contactfooter {
-  margin-top: 10px;
-  float: right;
-  color: #FFF;
-  text-align: right;
+#block .citation {
+  position: relative;
+  width: 100%;
+  font-size: 21px;
+  color: #5161a8;
+  font-family: "Montserrat", sans-serif;
+  text-align: justify;
+  padding-bottom: 0;
+  font-style: italic;
+}
+#block .guillemetUp {
+  margin-bottom: 5%;
+}
+#block .guillemetDown {
+  margin-left: 90%;
+}
+#block .btn-simple {
+  border-bottom: solid 2px #5161a8;
+  color: #5161a8;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-top: 5%;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 /* shop */
@@ -147,45 +169,6 @@
 .communiquer_text {
   color: white;
   background: #5161a8;
-}
-
-/* intro */
-#block {
-  padding: 62px 0px;
-}
-#block .intro {
-  font-size: 14px;
-  font-family: "Montserrat";
-  color: #37334a;
-  justify-content: center;
-  text-align: justify;
-}
-#block .citation {
-  position: relative;
-  width: 100%;
-  font-size: 21px;
-  color: #5161a8;
-  font-family: "Montserrat", sans-serif;
-  text-align: justify;
-  padding-bottom: 0;
-  font-style: italic;
-}
-#block .guillemetUp {
-  margin-bottom: 5%;
-}
-#block .guillemetDown {
-  margin-left: 90%;
-}
-#block .btn-simple {
-  border-bottom: solid 2px #5161a8;
-  color: #5161a8;
-  text-transform: uppercase;
-  font-size: 14px;
-  margin-top: 5%;
-}
-#block .btn-simple {
-  text-decoration: none;
-  font-weight: bold;
 }
 
 /* section insta */
@@ -276,10 +259,29 @@
   top: 17px;
 }
 
+/* footer */
+#footer {
+  background: #18214a;
+  padding-top: 37px;
+  height: 165px;
+}
+#footer .mail {
+  color: orange !important;
+  font-size: 14px;
+}
+
+.contactfooter {
+  margin-top: 10px;
+  float: right;
+  color: #FFF;
+  text-align: right;
+}
+
 @media screen and (min-width: 320px) and (max-width: 414px) {
   .logo {
-    width: 235px;
-    height: 129px;
+    width: 80%;
+    margin-top: 40% !important;
+    margin-left: 18%;
   }
 
   .communiquer {
@@ -348,27 +350,14 @@
   }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
-  .logo {
-    width: 80%;
-    margin-top: 1% !important;
-  }
-
   .wrapLogo {
     margin-left: 0;
+    font-size: 8px;
   }
 
-  .communiquer {
-    text-align: center;
-    margin-top: 15%;
-    margin-left: 45%;
-  }
-
+  /* intro */
   .citation {
     padding-bottom: 10%;
-  }
-
-  .wrapLogo {
-    font-size: 8px;
   }
 
   /* section shop */
@@ -405,12 +394,23 @@
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
+  .logo {
+    width: 80%;
+    margin-top: 30% !important;
+    margin-left: 60% !important;
+  }
+
   .shop_billet {
     display: none;
   }
 
   #shop .btn-link {
     margin-left: 38%;
+  }
+
+  #accueil .btn-teaser {
+    right: 35%;
+    width: 172px;
   }
 }
 
