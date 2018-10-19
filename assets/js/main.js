@@ -38,7 +38,7 @@ $( document ).ready(function() {
     // navbar qui passe de link à color en scrollant à la section suivante 
 
     $(window).scroll(function () {
-        if ($(window).scrollTop() >= (569)) {
+        if ($(window).scrollTop() >= (5)) {
         $('.navbar').css('background','#5263ba');
         } else {
         $('.navbar').css('background','transparent');
