@@ -11,10 +11,6 @@
 
     }
 
-    .rubberBand {
-        animation-iteration-count: infinite;
-    }
-
     .btn-link {
         position: relative;
         text-transform: uppercase;
@@ -33,6 +29,10 @@
         }
         
     }
+}
+
+.rubberBand {
+    animation-iteration-count: infinite;
 }
 
 .play {

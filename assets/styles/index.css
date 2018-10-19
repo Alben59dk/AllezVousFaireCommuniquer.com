@@ -8,9 +8,6 @@
 .masterhead .logo {
   margin-top: 25%;
 }
-.masterhead .rubberBand {
-  animation-iteration-count: infinite;
-}
 .masterhead .btn-link {
   position: relative;
   text-transform: uppercase;
@@ -26,6 +23,10 @@
 }
 .masterhead .btn-link .icon_play {
   position: absolute;
+}
+
+.rubberBand {
+  animation-iteration-count: infinite;
 }
 
 .play {
