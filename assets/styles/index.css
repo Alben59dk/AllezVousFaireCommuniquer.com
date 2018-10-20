@@ -16,13 +16,17 @@
   width: 257px;
   height: 44px;
   line-height: 22px;
-  font-family: "Montserrat", SemiBold;
+  font-family: "Montserrat";
   font-size: 14px;
   color: #FFF;
   text-decoration: none;
 }
 .masterhead .btn-link .icon_play {
   position: absolute;
+}
+
+.rubberBand {
+  animation-iteration-count: infinite;
 }
 
 .play {
@@ -55,10 +59,6 @@
   color: #de700a;
 }
 
-.navbar {
-  margin-left: -1px;
-}
-
 .navbar li {
   list-style: none;
   text-transform: uppercase;
@@ -78,76 +78,8 @@
   background-color: #5263ba !important;
 }
 
-.active {
-  width: 155px;
-}
-
 .nav-link {
   color: #FFF !important;
-}
-
-/* footer */
-#footer {
-  background: #18214a;
-  padding-top: 37px;
-  height: 165px;
-}
-#footer .mail {
-  color: orange !important;
-  font-size: 14px;
-}
-
-.contactfooter {
-  margin-top: 10px;
-  float: right;
-  color: #FFF;
-  text-align: right;
-}
-
-/* shop */
-#shop {
-  height: 263px;
-  background: #ebebeb;
-}
-#shop .container {
-  height: 100%;
-}
-#shop .shop_billet {
-  position: absolute;
-  top: -28px;
-  right: -50%;
-  margin-right: 342px;
-}
-#shop .shop_img {
-  padding: 30px 10px;
-}
-#shop .btn-link {
-  text-transform: uppercase;
-  font-weight: bold;
-  color: #5161a8;
-  text-decoration: none;
-  margin-left: 30%;
-}
-
-.btn-lg {
-  text-align: center;
-  border: 2px solid #435190;
-}
-.btn-lg a {
-  color: #435190;
-  text-transform: uppercase;
-}
-
-.hack_overflow {
-  float: right;
-}
-.hack_overflow .relative {
-  position: relative;
-}
-
-.communiquer_text {
-  color: white;
-  background: #5161a8;
 }
 
 /* intro */
@@ -183,10 +115,54 @@
   text-transform: uppercase;
   font-size: 14px;
   margin-top: 5%;
-}
-#block .btn-simple {
   text-decoration: none;
   font-weight: bold;
+}
+
+/* shop */
+#shop {
+  height: 263px;
+  background: #ebebeb;
+}
+#shop .container {
+  height: 100%;
+}
+#shop .shop_billet {
+  position: absolute;
+  top: -28px;
+  right: -10%;
+  z-index: 999;
+}
+#shop .shop_img {
+  padding: 30px 10px;
+}
+#shop .btn-link {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #5161a8;
+  text-decoration: none;
+  margin-left: 30%;
+}
+
+.btn-lg {
+  text-align: center;
+  border: 2px solid #435190;
+}
+.btn-lg a {
+  color: #435190;
+  text-transform: uppercase;
+}
+
+.hack_overflow {
+  float: right;
+}
+.hack_overflow .relative {
+  position: relative;
+}
+
+.communiquer_text {
+  color: white;
+  background: #5161a8;
 }
 
 /* section insta */
@@ -218,17 +194,12 @@
   width: 100%;
 }
 
-.textplusphoto {
+.photo {
   color: #37334a;
   text-transform: uppercase;
   font-weight: bold;
-  width: 20%;
   border-bottom: 2px #37334a solid;
-  margin-left: 40%;
-}
-
-.photo {
-  width: 100%;
+  margin: auto;
 }
 
 .btn-link:hover {
@@ -277,10 +248,29 @@
   top: 17px;
 }
 
+/* footer */
+#footer {
+  background: #18214a;
+  padding-top: 37px;
+  height: 165px;
+}
+#footer .mail {
+  color: orange !important;
+  font-size: 14px;
+}
+
+.contactfooter {
+  margin-top: 10px;
+  float: right;
+  color: #FFF;
+  text-align: right;
+}
+
 @media screen and (min-width: 320px) and (max-width: 414px) {
   .logo {
-    width: 235px;
-    height: 129px;
+    width: 80%;
+    margin-top: 40% !important;
+    margin-left: 18%;
   }
 
   .communiquer {
@@ -349,27 +339,14 @@
   }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
-  .logo {
-    width: 80%;
-    margin-top: 1% !important;
-  }
-
   .wrapLogo {
     margin-left: 0;
+    font-size: 8px;
   }
 
-  .communiquer {
-    text-align: center;
-    margin-top: 15%;
-    margin-left: 45%;
-  }
-
+  /* intro */
   .citation {
     padding-bottom: 10%;
-  }
-
-  .wrapLogo {
-    font-size: 8px;
   }
 
   /* section shop */
@@ -406,12 +383,23 @@
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
+  .logo {
+    width: 80%;
+    margin-top: 30% !important;
+    margin-left: 60% !important;
+  }
+
   .shop_billet {
     display: none;
   }
 
   #shop .btn-link {
     margin-left: 38%;
+  }
+
+  #accueil .btn-teaser {
+    right: 35%;
+    width: 172px;
   }
 }
 
