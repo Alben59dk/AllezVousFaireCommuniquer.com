@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -16,6 +16,9 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,700i" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./node_modules/modal-video/css/modal-video.min.css">
+    <link rel="stylesheet" href="./node_modules/hover.css/css/hover.css" />
+    <link rel="stylesheet" href="http://anijs.github.io/lib/anicollection/anicollection.css">
+
 
     <title>Integration</title>
 </head>
@@ -24,58 +27,63 @@
 <body>
     <!-- Header -->
     <header class="masterhead" id="accueil">
-        <div class="container">
-            <div class="row">
-                <div class="menu col-12">
-                    <nav class="navbar navbar-expand-lg navbar-light bg-link fixed-top">
-                        <a class=" wrapLogo navbar-brand" href="#">
-                        one man <strong>conf</strong> show
-                        </a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarResponsive">
-                            <ul class="navbar-nav m-auto">
-                                <li class="nav-item">
-                                    <a class="spectacle nav-link" href="#" data-scroll="accueil">LE SPECTACLE <span class="sr-only">(current)</span></a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#" data-scroll="shop">BILLETERIE</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#" data-scroll="section_insta">#ALLEZVOUSFAIRECOMMUNIQuER</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#" data-scroll="section_final">TEMOIGNAGES</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#" data-scroll="footer">CONTACT</a>
-                                </li>
-                                <li>
-                                    <a href="http://www.comediedeparis.com/allez-tous-vous-faire-commmuniquer/spectacle/227" target="_blank"><img src="./assets/img/Picto_ticket.png" alt="pictobillet"></a>
-                                </li>
-                            </ul>
-                        </div>
+        <div class="container" >
+                <div class="row">
+                    <div class="menu col-12">
+                        <nav class="navbar navbar-expand-lg navbar-light bg-link fixed-top" >
+                            <a class=" wrapLogo navbar-brand" href="#">
+                                one man <strong>conf</strong> show
+                            </a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                                <ul class="navbar-nav m-auto">
+                                    <li class="nav-item">
+                                        <a class="spectacle nav-link" data-anijs="if: click, do: flipInY animated" href="#" data-scroll="accueil">LE SPECTACLE <span class="sr-only">(current)</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#" data-anijs="if: click, do: flipInY animated" data-scroll="shop">BILLETERIE</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#" data-anijs="if: click, do: flipInY animated" data-scroll="section_insta">#ALLEZVOUSFAIRECOMMUNIQuER</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#" data-anijs="if: click, do: flipInY animated" data-scroll="section_final">TEMOIGNAGES</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#" data-anijs="if: click, do: flipInY animated" data-scroll="footer">CONTACT</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.comediedeparis.com/allez-tous-vous-faire-commmuniquer/spectacle/227" target="_blank"><img class="rubberBand animated" src="./assets/img/Picto_ticket.png" alt="pictobillet"></a>
+                                    </li>
+                                </ul>
+                            </div>
                         </nav>
                     </div>
+                </div>
+                <div class="row">
+                    <div 
+                    class="offset-lg-6 offset-xs-4" >
+                        <img class="logo bounceInLeft animated" src="./assets/img/logo.png" alt="logo" />
                     </div>
-                    <div class="offset-6 communiquer">
-                        <img class="logo" src="./assets/img/logo.png" />
-                    </div>
-                    <div class="offset-md-7 col-md-3 offset-lg-7 btn-teaser">
-                    <button
-                        class="btn btn-link btn-lg active js-modal-btn" 
-                        role="button" 
+                </div>
+                <div class="row>">
+                    <div class="offset-lg-7 offset-md-6">
+                        <button
+                        class="btn btn-link btn-lg active js-modal-btn"
                         aria-pressed="true"
                         data-video-id="bDXwpMh2pes"
-                    >    
-                    <div class="inside-btn">
-                        <div class="play">
-                            <i class="fas fa-play"></i>
-                        </div>
-                        découvrez le teaser
+                        >    
+                            <div class="inside-btn">
+                                <div class="play">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                                découvrez le teaser
+                            </div>
+                        </button>
                     </div>
-                </button>
+                </div>
             </div>
         </div>
     </header>
@@ -86,12 +94,12 @@
             <div class="container">
                 <div class="row">
                     <div class="offset-lg-1 col-lg-4 col-md-6 col-xs-12">
-                        <img src="./assets/img/guillemet1.png" class="guillemetUp">
+                        <img src="./assets/img/guillemet1.png" class="guillemetUp" alt="guillemet" />
                             <div class="citation">
-                                <p class="text_intro"><strong class="communiquer_text">Communiquer est un art,</strong>&nbsp nous serions donc tous des artistes incompris... et d'autant plus lorsque l'on s'exprime avec les autres (...)</p>
+                                <p class="text_intro"><strong class="communiquer_text">Communiquer est un art,</strong>&nbsp;nous serions donc tous des artistes incompris... et d'autant plus lorsque l'on s'exprime avec les autres (...)</p>
                             </div>
                             <div>
-                                <img src="./assets/img/guillemet2.png" class="guillemetDown">
+                                <img src="./assets/img/guillemet2.png" class="guillemetDown" alt="guillemet" />
                             </div>
                         </div>
                         <div class="offset-lg-2 col-lg-4 col-md-6 col-xs-12 intro">
@@ -112,23 +120,23 @@
     <section id="shop" class="section_shop">
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-md-12 col-lg-3 shop_shop ">
-                    <img src="./assets/img/shop.png" class="shop_img rounded mx-auto d-block">
-                        <button
-                            class="btn btn-link btn-lg active" 
-                            role="button" 
-                            aria-pressed="true"
-                            >    
-                            <div class="inside-btn">
-                                billetrie
-                            </div>
-                        </button>
-                    </div> 
-                    <div class="col-xs-12 col-md-12 col-lg-9 hack_overflow">
-                        <img src="./assets/img/billet.png" class="shop_billet">
-                    </div>
-                </div>    
-            </div>
+                <div class="col-xs-12 col-md-12 col-lg-3 shop_shop">
+                    <img src="./assets/img/shop.png" class="shop_img rounded mx-auto d-block" alt="shop" />
+                    <a
+                        class="btn btn-link btn-lg active" 
+                        data-anijs="if: mouseover, do: hinge animated, to: .shop_billet"
+                        aria-pressed="true"
+                        href="http://www.comediedeparis.com/allez-tous-vous-faire-commmuniquer/spectacle/227" 
+                        >    
+                        <div class="inside-btn">
+                            billetrie
+                        </div>
+                    </a>
+                </div> 
+                <div class="col-xs-12 col-md-12 col-lg-9 hack_overflow">
+                    <img src="./assets/img/billet.png" class="shop_billet" alt="billet" />
+                </div>
+            </div>    
         </div>
     </section>
 
@@ -137,10 +145,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-sm-12 pictocom">
-                    <img class="img_picto_insta" src="./assets/img/commpicto.png" />
+                    <img class="img_picto_insta" src="./assets/img/commpicto.png" alt="picto" />
                 </div>
                 <div class="title_insta col-lg-12 col-md-12 col-xs-12">
-                    <p>#<strong>ALLEZ</strong>VOUS<strong>FAIRE</strong>COMMUNIQUER</p>
+                    <p data-anijs="if: mouseover, do: flip animated">#<strong>ALLEZ</strong>VOUS<strong>FAIRE</strong>COMMUNIQUER</p>
                 </div>
                 <div class="text_insta col-lg-12 col-md-12 col-xs-12">
                     <p>Utilise le hastag officiel du spectacle pour nous partager</p>
@@ -149,29 +157,26 @@
             </div>
             <div class="row">
                 <div class="firstCol col-lg-4 col-md-4 col-xs-12">
-                    <img class="insta" src="./assets/img/converse.png" alt="chaussure" />
-                    <img class="insta" src="./assets/img/running.png" alt="running" />
-                    <img class="insta" src="./assets/img/enfant.png" alt="enfant" />
+                    <img class="insta" data-anijs="if: mouseover, do: tada animated" src="./assets/img/converse.png" alt="chaussure" />
+                    <img class="insta" data-anijs="if: mouseover, do: tada animated" src="./assets/img/running.png" alt="running" />
+                    <img class="insta" data-anijs="if: mouseover, do: tada animated" src="./assets/img/enfant.png" alt="enfant" />
                 </div>
                 <div class="secondCol col-lg-4 col-md-4 col-xs-12">
-                    <img class="insta" src="./assets/img/velo.png" alt="velo" />
-                    <img class="insta" src="./assets/img/sautemouton.png" alt="manu" />
-                    <img  class="insta"src="./assets/img/fan.png" alt="fan" />
+                    <img class="insta" data-anijs="if: mouseover, do: tada animated" src="./assets/img/velo.png" alt="velo" />
+                    <img class="insta" data-anijs="if: mouseover, do: tada animated" src="./assets/img/sautemouton.png" alt="manu" />
+                    <img class="insta" data-anijs="if: mouseover, do: tada animated" src="./assets/img/fan.png" alt="fan" />
                 </div>
                 <div class="thirdCol col-lg-4 col-md-4 col-xs-12">
-                    <img class="insta" src="./assets/img/couchedesoleil.png" alt="soleil" />
-                    <img class="insta" src="./assets/img/soleil.png" alt="soleilcouchant" />
-                    <img class="insta" src="./assets/img/enfantjoyeux.png" alt="enfantjoyeux" />
+                    <img class="insta" data-anijs="if: mouseover, do: tada animated" src="./assets/img/couchedesoleil.png" alt="soleil" />
+                    <img class="insta" data-anijs="if: mouseover, do: tada animated" src="./assets/img/soleil.png" alt="soleilcouchant" />
+                    <img class="insta" data-anijs="if: mouseover, do: tada animated" src="./assets/img/enfantjoyeux.png" alt="enfantjoyeux" />
                 </div>
-                <div class="col-12 instatext">
-                        <button
-                        class="btn btn-link  active photo" 
-                        role="button" 
+                <div class="col-12 instatext text-center">
+                    <button
+                        class="btn btn-link active photo" 
                         aria-pressed="true"
                         >    
-                        <div class="textplusphoto">
-                            voir plus de photo
-                        </div>
+                        voir plus de photo
                     </button>
                 </div>
             </div>
@@ -181,9 +186,10 @@
     <!-- Section final -->
     <section id="section_final">
         <div class="container">
-            <div class="row boxslicky">
+            <div 
+            class="row boxslicky"> 
                 <div class="col-12 guillemetslicky">
-                    <img class="guillemet3" src="./assets/img/guillemet3.png" />
+                    <img class="guillemet3" src="./assets/img/guillemet3.png" alt="guillemet" />
                 </div>
                 <div class="offset-3 col-6 slicky">
                     <div class="textslicky">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit </div>
@@ -203,7 +209,7 @@
                 </div>
                 <div class="contactfooter col-lg-6 col-xs-12 col-sm-6">
                     <strong class="text_footer">Tu as une question concernant le spectacle ?</strong>
-                    <p class="text_footer"></p>contactez nous sur :</p>
+                    <p class="text_footer">contactez nous sur :</p>
                     <a href="mailto:contact@allezvousfairecommuniquer.com" class="mail">contact@allezvousfairecommuniquer.com</a>
                 </div>
             </div>
@@ -215,8 +221,9 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>    <script src="./node_modules/modal-video/js/jquery-modal-video.min.js"></script>
+    <script src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>    <script src="./node_modules/modal-video/js/jquery-modal-video.min.js"></script>
     <script src="./assets/js/main.js"></script>
-    
+    <script src="./bower_components/AniJS/dist/anijs-min.js"></script>
+
     </body>
 </html>
