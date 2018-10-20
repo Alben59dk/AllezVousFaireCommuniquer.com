@@ -8,7 +8,6 @@
 
     .logo {
         margin-top: 25%;
-
     }
 
     .btn-link {
@@ -19,7 +18,7 @@
         width: 257px;
         height: 44px;
         line-height: 22px;
-        font-family: 'Montserrat', SemiBold;
+        font-family: 'Montserrat';
         font-size: 14px;
         color: #FFF;
         text-decoration: none;
@@ -68,9 +67,7 @@
         color: #de700a;
     }
 }
-.navbar {
-    margin-left: -1px;
-}
+
 .navbar li {
     list-style: none;
     text-transform: uppercase;
