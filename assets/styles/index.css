@@ -16,7 +16,7 @@
   width: 257px;
   height: 44px;
   line-height: 22px;
-  font-family: "Montserrat", SemiBold;
+  font-family: "Montserrat";
   font-size: 14px;
   color: #FFF;
   text-decoration: none;
@@ -59,10 +59,6 @@
   color: #de700a;
 }
 
-.navbar {
-  margin-left: -1px;
-}
-
 .navbar li {
   list-style: none;
   text-transform: uppercase;
@@ -80,10 +76,6 @@
 
 .bg-light {
   background-color: #5263ba !important;
-}
-
-.active {
-  width: 155px;
 }
 
 .nav-link {
@@ -202,17 +194,12 @@
   width: 100%;
 }
 
-.textplusphoto {
+.photo {
   color: #37334a;
   text-transform: uppercase;
   font-weight: bold;
-  width: 20%;
   border-bottom: 2px #37334a solid;
   margin: auto;
-}
-
-.photo {
-  width: 100%;
 }
 
 .btn-link:hover {
@@ -413,10 +400,6 @@
   #accueil .btn-teaser {
     right: 35%;
     width: 172px;
-  }
-
-  .textplusphoto {
-    width: 30px !important;
   }
 }
 

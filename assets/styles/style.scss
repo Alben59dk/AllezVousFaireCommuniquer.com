@@ -88,9 +88,7 @@
     background-color:rgb(82, 99, 186) !important;
 }
 
-.active {
-    width: 155px;
-}
+
 
 .nav-link {
     color: #FFF !important;
@@ -224,17 +222,12 @@
     width: 100%;
 }
 
-.textplusphoto {
+.photo {
     color: #37334a;
     text-transform: uppercase;
     font-weight: bold;
-    width: 20%;
     border-bottom: 2px #37334a solid;
     margin: auto;
-}
-
-.photo {
-    width: 100%;
 }
 
 .btn-link:hover {
@@ -399,6 +392,8 @@
         .text_insta {
             font-size: 10px;
         }
+
+
     }
 
 
@@ -496,9 +491,6 @@
             }
     }
 
-    .textplusphoto {
-        width: 30px !important;
-    }
 }
 
 // Extra large devices (large desktops, 1200px and up)
